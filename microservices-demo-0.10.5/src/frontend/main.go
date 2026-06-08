@@ -82,6 +82,12 @@ type frontendServer struct {
 	adSvcAddr string
 	adSvcConn *grpc.ClientConn
 
+	inventorySvcAddr string
+	inventorySvcConn *grpc.ClientConn
+
+	couponSvcAddr string
+	couponSvcConn *grpc.ClientConn
+
 	collectorAddr string
 	collectorConn *grpc.ClientConn
 
@@ -136,6 +142,8 @@ func main() {
 	mustMapEnv(&svc.checkoutSvcAddr, "CHECKOUT_SERVICE_ADDR")
 	mustMapEnv(&svc.shippingSvcAddr, "SHIPPING_SERVICE_ADDR")
 	mustMapEnv(&svc.adSvcAddr, "AD_SERVICE_ADDR")
+	mustMapEnv(&svc.inventorySvcAddr, "INVENTORY_SERVICE_ADDR")
+	mustMapEnv(&svc.couponSvcAddr, "COUPON_SERVICE_ADDR")
 	mustMapEnv(&svc.shoppingAssistantSvcAddr, "SHOPPING_ASSISTANT_SERVICE_ADDR")
 
 	mustConnGRPC(ctx, &svc.currencySvcConn, svc.currencySvcAddr)
@@ -145,6 +153,8 @@ func main() {
 	mustConnGRPC(ctx, &svc.shippingSvcConn, svc.shippingSvcAddr)
 	mustConnGRPC(ctx, &svc.checkoutSvcConn, svc.checkoutSvcAddr)
 	mustConnGRPC(ctx, &svc.adSvcConn, svc.adSvcAddr)
+	mustConnGRPC(ctx, &svc.inventorySvcConn, svc.inventorySvcAddr)
+	mustConnGRPC(ctx, &svc.couponSvcConn, svc.couponSvcAddr)
 
 	r := mux.NewRouter()
 	r.HandleFunc(baseUrl+"/", svc.homeHandler).Methods(http.MethodGet, http.MethodHead)
