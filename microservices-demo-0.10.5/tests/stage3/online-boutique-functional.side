@@ -1,0 +1,288 @@
+{
+  "id": "e87b4891-7a8f-4870-8a62-57459cc3b842",
+  "version": "2.0",
+  "name": "Online Boutique Functional Tests",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "c2b9c6e5-82a2-4c8d-98f0-5fb0e56c4a90",
+    "name": "Browse product and place order",
+    "commands": [{
+      "id": "17b9a96c-3f56-4abd-8a9e-4958cb3bb936",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03723b5b-5c42-4ec4-9910-8590845c6e7e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1066x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9548392f-4b33-4e58-8495-44a619d4ea81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(2) .hot-product-card-img-overlay",
+      "targets": [
+        ["css=.col-md-4:nth-child(2) .hot-product-card-img-overlay", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d595b93-5372-4d15-ba10-6e2cbd4cb0e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantity",
+      "targets": [
+        ["id=quantity", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity", "css:finder"],
+        ["xpath=//select[@id='quantity']", "xpath:attributes"],
+        ["xpath=//div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9259c42-0a9a-4cb4-b9cb-8a6424823e87",
+      "comment": "",
+      "command": "select",
+      "target": "id=quantity",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "407b7f19-a649-4bb4-a106-486abae575d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#quantity > option:nth-child(2)",
+      "targets": [
+        ["css=#quantity > option:nth-child(2)", "css:finder"],
+        ["xpath=//select[@id='quantity']/option[2]", "xpath:idRelative"],
+        ["xpath=//div/select/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bac4cfe3-3bac-4c51-a25a-d63ff61f476e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-left-logo",
+      "targets": [
+        ["css=.top-left-logo", "css:finder"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "124d3541-1791-4ad0-b2d3-6367bdbacb09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(3) .hot-product-card-img-overlay",
+      "targets": [
+        ["css=.col-md-4:nth-child(3) .hot-product-card-img-overlay", "css:finder"],
+        ["xpath=//div[3]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5e217cb-9332-4b79-8927-eb9b34f63730",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cymbal-button-primary",
+      "targets": [
+        ["css=.cymbal-button-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "253a018b-5b2c-49f9-a8f1-603789012241",
+      "comment": "",
+      "command": "click",
+      "target": "id=cart_coupon_code",
+      "targets": [
+        ["id=cart_coupon_code", "id"],
+        ["name=coupon_code", "name"],
+        ["css=#cart_coupon_code", "css:finder"],
+        ["xpath=//input[@id='cart_coupon_code']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd253210-e889-439f-9ff1-c822dc7da983",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-summary-total-row",
+      "targets": [
+        ["css=.cart-summary-total-row", "css:finder"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc901fc4-d423-4700-bf93-406a8add143b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cymbal-button-secondary:nth-child(2)",
+      "targets": [
+        ["css=.cymbal-button-secondary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14de3d44-bf68-4271-bfab-37847dde4d90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cymbal-button-primary:nth-child(1)",
+      "targets": [
+        ["css=.cymbal-button-primary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[10]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dedebf5-4ac8-4ef7-85da-3b6b3e608f4e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continue Shopping",
+      "targets": [
+        ["linkText=Continue Shopping", "linkText"],
+        ["css=.cymbal-button-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Continue Shopping')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continue Shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d72ea602-eb33-4e91-97b9-6eb4a95bbf26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(6) .hot-product-card-img-overlay",
+      "targets": [
+        ["css=.col-md-4:nth-child(6) .hot-product-card-img-overlay", "css:finder"],
+        ["xpath=//div[6]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63860049-f899-4b0f-b69c-2c14d693c9fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantity",
+      "targets": [
+        ["id=quantity", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity", "css:finder"],
+        ["xpath=//select[@id='quantity']", "xpath:attributes"],
+        ["xpath=//div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1bd3a90-1776-4ecb-b79f-a5692f99c04a",
+      "comment": "",
+      "command": "select",
+      "target": "id=quantity",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "8a5d32d4-e72b-45ee-bd5f-e55f6e289e8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#quantity > option:nth-child(2)",
+      "targets": [
+        ["css=#quantity > option:nth-child(2)", "css:finder"],
+        ["xpath=//select[@id='quantity']/option[2]", "xpath:idRelative"],
+        ["xpath=//div/select/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "184968ad-7a79-4b5e-9265-521740f1863c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cymbal-button-primary",
+      "targets": [
+        ["css=.cymbal-button-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9a6b164-3718-4a97-8bac-9e884f21c9d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=cart_coupon_code",
+      "targets": [
+        ["id=cart_coupon_code", "id"],
+        ["name=coupon_code", "name"],
+        ["css=#cart_coupon_code", "css:finder"],
+        ["xpath=//input[@id='cart_coupon_code']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2537323b-3b2d-4a1b-b9e8-c2551d558760",
+      "comment": "",
+      "command": "type",
+      "target": "id=cart_coupon_code",
+      "targets": [
+        ["id=cart_coupon_code", "id"],
+        ["name=coupon_code", "name"],
+        ["css=#cart_coupon_code", "css:finder"],
+        ["xpath=//input[@id='cart_coupon_code']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "SAVE10"
+    }, {
+      "id": "3f04aa67-4865-4edf-8a67-0fe487f2400e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cymbal-button-secondary:nth-child(2)",
+      "targets": [
+        ["css=.cymbal-button-secondary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78f074ad-28b6-48ee-b726-e2c4884dd44b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cymbal-button-primary:nth-child(1)",
+      "targets": [
+        ["css=.cymbal-button-primary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[10]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df297cd2-e5da-4e83-b292-b1267cca5f70",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continue Shopping",
+      "targets": [
+        ["linkText=Continue Shopping", "linkText"],
+        ["css=.cymbal-button-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Continue Shopping')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continue Shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f51a0532-a8e0-44ff-a15c-5461f84f6abd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2b9c6e5-82a2-4c8d-98f0-5fb0e56c4a90"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
