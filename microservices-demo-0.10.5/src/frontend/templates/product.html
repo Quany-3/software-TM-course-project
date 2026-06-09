@@ -33,6 +33,11 @@
 
           <h2>{{ $.product.Item.Name }}</h2>
           <p class="product-price">{{ renderMoney $.product.Price }}</p>
+          {{ if $.stock_known }}
+          <p class="product-stock {{ if $.stock_available }}available{{ else }}unavailable{{ end }}">
+            {{ if $.stock_available }}In stock: {{ $.stock_quantity }}{{ else }}Out of stock{{ end }}
+          </p>
+          {{ end }}
           <p>{{ $.product.Item.Description }}</p>
 
           {{ if $.packagingInfo }}
@@ -66,7 +71,9 @@
               </select>
               <img src="{{ $.baseUrl }}/static/icons/Hipster_DownArrow.svg" alt="">
             </div>
-            <button type="submit" class="cymbal-button-primary">Add To Cart</button>
+            <button type="submit" class="cymbal-button-primary" {{ if and $.stock_known (not $.stock_available) }}disabled{{ end }}>
+              Add To Cart
+            </button>
           </form>
         </div>
       </div>

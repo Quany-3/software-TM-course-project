@@ -232,6 +232,7 @@ message PlaceOrderRequest {
     Address address = 3;
     string email = 5;
     CreditCardInfo credit_card = 6;
+    string coupon_code = 7;
 }
 
 message PlaceOrderResponse {
@@ -259,4 +260,91 @@ message Ad {
 
     // short advertisement text to display.
     string text = 2;
+}
+
+// -------------Inventory service-----------------
+
+service InventoryService {
+    rpc GetStock(GetStockRequest) returns (GetStockResponse) {}
+    rpc CheckStock(CheckStockRequest) returns (CheckStockResponse) {}
+    rpc ReserveStock(ReserveStockRequest) returns (ReserveStockResponse) {}
+    rpc ReleaseStock(ReleaseStockRequest) returns (ReleaseStockResponse) {}
+}
+
+message GetStockRequest {
+    string product_id = 1;
+}
+
+message GetStockResponse {
+    string product_id = 1;
+    int32 quantity = 2;
+}
+
+message CheckStockRequest {
+    repeated CartItem items = 1;
+}
+
+message CheckStockResponse {
+    bool available = 1;
+    repeated StockItemStatus item_statuses = 2;
+}
+
+message StockItemStatus {
+    string product_id = 1;
+    int32 requested_quantity = 2;
+    int32 available_quantity = 3;
+    bool available = 4;
+}
+
+message ReserveStockRequest {
+    string user_id = 1;
+    repeated CartItem items = 2;
+}
+
+message ReserveStockResponse {
+    bool success = 1;
+    string reservation_id = 2;
+    string message = 3;
+}
+
+message ReleaseStockRequest {
+    string reservation_id = 1;
+}
+
+message ReleaseStockResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+// -------------Coupon service-----------------
+
+service CouponService {
+    rpc ValidateCoupon(ValidateCouponRequest) returns (ValidateCouponResponse) {}
+    rpc ApplyCoupon(ApplyCouponRequest) returns (ApplyCouponResponse) {}
+}
+
+message ValidateCouponRequest {
+    string coupon_code = 1;
+    string user_id = 2;
+}
+
+message ValidateCouponResponse {
+    bool valid = 1;
+    string message = 2;
+    string discount_type = 3;
+    double discount_value = 4;
+}
+
+message ApplyCouponRequest {
+    string coupon_code = 1;
+    string user_id = 2;
+    Money subtotal = 3;
+    Money shipping_cost = 4;
+}
+
+message ApplyCouponResponse {
+    bool success = 1;
+    Money discount = 2;
+    Money final_total = 3;
+    string message = 4;
 }

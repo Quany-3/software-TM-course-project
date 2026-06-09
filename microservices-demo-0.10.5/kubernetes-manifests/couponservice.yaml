@@ -1,0 +1,69 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: couponservice
+  labels:
+    app: couponservice
+spec:
+  selector:
+    matchLabels:
+      app: couponservice
+  template:
+    metadata:
+      labels:
+        app: couponservice
+    spec:
+      serviceAccountName: couponservice
+      securityContext:
+        fsGroup: 1000
+        runAsGroup: 1000
+        runAsNonRoot: true
+        runAsUser: 1000
+      containers:
+        - name: server
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
+            privileged: false
+            readOnlyRootFilesystem: true
+          image: couponservice
+          ports:
+          - containerPort: 50053
+          readinessProbe:
+            grpc:
+              port: 50053
+          livenessProbe:
+            grpc:
+              port: 50053
+          env:
+          - name: PORT
+            value: "50053"
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 100m
+              memory: 128Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: couponservice
+  labels:
+    app: couponservice
+spec:
+  type: ClusterIP
+  selector:
+    app: couponservice
+  ports:
+  - name: grpc
+    port: 50053
+    targetPort: 50053
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: couponservice

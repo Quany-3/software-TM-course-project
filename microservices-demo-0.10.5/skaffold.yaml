@@ -35,6 +35,10 @@ build:
     context: src/shippingservice
   - image: checkoutservice
     context: src/checkoutservice
+  - image: couponservice
+    context: src/couponservice
+  - image: inventoryservice
+    context: src/inventoryservice
   - image: paymentservice
     context: src/paymentservice
   - image: currencyservice

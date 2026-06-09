@@ -424,6 +424,20 @@ similar to that of the hot-products-row.
   font-size: 28px;
 }
 
+.h-product .product-stock {
+  color: #5C6063;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.h-product .product-stock.available {
+  color: #2E7D32;
+}
+
+.h-product .product-stock.unavailable {
+  color: #B00020;
+}
+
 .h-product .product-info .product-wrapper {
   margin-left: 15px;
 }
@@ -483,6 +497,13 @@ similar to that of the hot-products-row.
 
 .h-product .cymbal-button-primary {
   margin-top: 16px;
+}
+
+.h-product .cymbal-button-primary:disabled {
+  background-color: #DADCE0;
+  border-color: #DADCE0;
+  color: #5C6063;
+  cursor: not-allowed;
 }
 
 /* Platform Banner */

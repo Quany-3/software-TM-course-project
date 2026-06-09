@@ -19,6 +19,7 @@ import (
 	"fmt"
 	"net"
 	"os"
+	"strings"
 	"time"
 
 	"cloud.google.com/go/profiler"
@@ -29,6 +30,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/health"
+	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
 	pb "github.com/GoogleCloudPlatform/microservices-demo/src/checkoutservice/genproto"
@@ -83,6 +85,12 @@ type checkoutService struct {
 
 	paymentSvcAddr string
 	paymentSvcConn *grpc.ClientConn
+
+	inventorySvcAddr string
+	inventorySvcConn *grpc.ClientConn
+
+	couponSvcAddr string
+	couponSvcConn *grpc.ClientConn
 }
 
 func main() {
@@ -114,6 +122,8 @@ func main() {
 	mustMapEnv(&svc.currencySvcAddr, "CURRENCY_SERVICE_ADDR")
 	mustMapEnv(&svc.emailSvcAddr, "EMAIL_SERVICE_ADDR")
 	mustMapEnv(&svc.paymentSvcAddr, "PAYMENT_SERVICE_ADDR")
+	mustMapEnv(&svc.inventorySvcAddr, "INVENTORY_SERVICE_ADDR")
+	mustMapEnv(&svc.couponSvcAddr, "COUPON_SERVICE_ADDR")
 
 	mustConnGRPC(ctx, &svc.shippingSvcConn, svc.shippingSvcAddr)
 	mustConnGRPC(ctx, &svc.productCatalogSvcConn, svc.productCatalogSvcAddr)
@@ -121,6 +131,8 @@ func main() {
 	mustConnGRPC(ctx, &svc.currencySvcConn, svc.currencySvcAddr)
 	mustConnGRPC(ctx, &svc.emailSvcConn, svc.emailSvcAddr)
 	mustConnGRPC(ctx, &svc.paymentSvcConn, svc.paymentSvcAddr)
+	mustConnGRPC(ctx, &svc.inventorySvcConn, svc.inventorySvcAddr)
+	mustConnGRPC(ctx, &svc.couponSvcConn, svc.couponSvcAddr)
 
 	log.Infof("service config: %+v", svc)
 
@@ -240,23 +252,61 @@ func (cs *checkoutService) PlaceOrder(ctx context.Context, req *pb.PlaceOrderReq
 		return nil, status.Errorf(codes.Internal, err.Error())
 	}
 
-	total := pb.Money{CurrencyCode: req.UserCurrency,
+	subtotal := pb.Money{CurrencyCode: req.UserCurrency,
 		Units: 0,
 		Nanos: 0}
-	total = money.Must(money.Sum(total, *prep.shippingCostLocalized))
 	for _, it := range prep.orderItems {
 		multPrice := money.MultiplySlow(*it.Cost, uint32(it.GetItem().GetQuantity()))
-		total = money.Must(money.Sum(total, multPrice))
+		subtotal = money.Must(money.Sum(subtotal, multPrice))
+	}
+
+	reservationID, err := cs.reserveStock(ctx, req.UserId, prep.cartItems)
+	if err != nil {
+		return nil, status.Errorf(codes.FailedPrecondition, "failed to reserve stock: %+v", err)
+	}
+	log.Infof("stock reserved (reservation_id: %s)", reservationID)
+
+	stockReserved := true
+	releaseReservedStock := func(reason string) {
+		if !stockReserved {
+			return
+		}
+		if err := cs.releaseStock(ctx, reservationID); err != nil {
+			log.Warnf("failed to release reserved stock after %s: %+v", reason, err)
+		} else {
+			log.Infof("released reserved stock after %s (reservation_id: %s)", reason, reservationID)
+		}
+		stockReserved = false
+	}
+
+	couponCode := couponCodeFromContext(ctx)
+	if couponCode == "" {
+		couponCode = os.Getenv("DEFAULT_COUPON_CODE")
+	}
+	total := money.Must(money.Sum(subtotal, *prep.shippingCostLocalized))
+	if couponCode != "" {
+		discount, couponTotal, err := cs.applyCoupon(ctx, couponCode, req.UserId, &subtotal, prep.shippingCostLocalized)
+		if err != nil {
+			releaseReservedStock("coupon failure")
+			return nil, status.Errorf(codes.FailedPrecondition, "failed to apply coupon: %+v", err)
+		}
+		total = *couponTotal
+		log.Infof("coupon applied coupon_code=%q discount=%d.%09d final_total=%d.%09d",
+			couponCode, discount.GetUnits(), discount.GetNanos(), total.GetUnits(), total.GetNanos())
+	} else {
+		log.Info("no coupon applied")
 	}
 
 	txID, err := cs.chargeCard(ctx, &total, req.CreditCard)
 	if err != nil {
+		releaseReservedStock("payment failure")
 		return nil, status.Errorf(codes.Internal, "failed to charge card: %+v", err)
 	}
 	log.Infof("payment went through (transaction_id: %s)", txID)
 
 	shippingTrackingID, err := cs.shipOrder(ctx, req.Address, prep.cartItems)
 	if err != nil {
+		releaseReservedStock("shipping failure")
 		return nil, status.Errorf(codes.Unavailable, "shipping error: %+v", err)
 	}
 
@@ -277,6 +327,18 @@ func (cs *checkoutService) PlaceOrder(ctx context.Context, req *pb.PlaceOrderReq
 	}
 	resp := &pb.PlaceOrderResponse{Order: orderResult}
 	return resp, nil
+}
+
+func couponCodeFromContext(ctx context.Context) string {
+	md, ok := metadata.FromIncomingContext(ctx)
+	if !ok {
+		return ""
+	}
+	values := md.Get("coupon-code")
+	if len(values) == 0 {
+		return ""
+	}
+	return strings.TrimSpace(values[0])
 }
 
 type orderPrep struct {

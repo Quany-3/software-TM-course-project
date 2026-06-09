@@ -16,11 +16,15 @@
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0.100-noble@sha256:c7445f141c04f1a6b454181bd098dcfa606c61ba0bd213d0a702489e5bd4cd71 AS builder
 ARG TARGETARCH
 WORKDIR /app
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends protobuf-compiler \
+    && rm -rf /var/lib/apt/lists/*
 COPY cartservice.csproj .
 RUN dotnet restore cartservice.csproj \
     -a $TARGETARCH
 COPY . .
 RUN dotnet publish cartservice.csproj \
+    -p:Protobuf_ProtocFullPath=/usr/bin/protoc \
     -p:PublishSingleFile=true \
     -a $TARGETARCH \
     --self-contained true \

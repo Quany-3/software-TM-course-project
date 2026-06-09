@@ -31,6 +31,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
+	"google.golang.org/grpc/metadata"
 
 	pb "github.com/GoogleCloudPlatform/microservices-demo/src/frontend/genproto"
 	"github.com/GoogleCloudPlatform/microservices-demo/src/frontend/money"
@@ -174,6 +175,13 @@ func (fe *frontendServer) productHandler(w http.ResponseWriter, r *http.Request)
 		return
 	}
 
+	stockQuantity, err := fe.getStock(r.Context(), id)
+	stockKnown := true
+	if err != nil {
+		stockKnown = false
+		log.WithField("error", err).Warn("failed to retrieve stock")
+	}
+
 	// ignores the error retrieving recommendations since it is not critical
 	recommendations, err := fe.getRecommendations(r.Context(), sessionID(r), []string{id})
 	if err != nil {
@@ -200,6 +208,9 @@ func (fe *frontendServer) productHandler(w http.ResponseWriter, r *http.Request)
 		"show_currency":   true,
 		"currencies":      currencies,
 		"product":         product,
+		"stock_known":     stockKnown,
+		"stock_quantity":  stockQuantity,
+		"stock_available": stockKnown && stockQuantity > 0,
 		"recommendations": recommendations,
 		"cart_size":       cartSize(cart),
 		"packagingInfo":   packagingInfo,
@@ -225,6 +236,15 @@ func (fe *frontendServer) addToCartHandler(w http.ResponseWriter, r *http.Reques
 	p, err := fe.getProduct(r.Context(), payload.ProductID)
 	if err != nil {
 		renderHTTPError(log, r, w, errors.Wrap(err, "could not retrieve product"), http.StatusInternalServerError)
+		return
+	}
+	stockQuantity, err := fe.getStock(r.Context(), payload.ProductID)
+	if err != nil {
+		renderHTTPError(log, r, w, errors.Wrap(err, "could not retrieve stock"), http.StatusInternalServerError)
+		return
+	}
+	if int32(payload.Quantity) > stockQuantity {
+		renderHTTPError(log, r, w, fmt.Errorf("only %d units are available for this product", stockQuantity), http.StatusUnprocessableEntity)
 		return
 	}
 
@@ -261,6 +281,7 @@ func (fe *frontendServer) viewCartHandler(w http.ResponseWriter, r *http.Request
 		renderHTTPError(log, r, w, errors.Wrap(err, "could not retrieve cart"), http.StatusInternalServerError)
 		return
 	}
+	couponCode := strings.ToUpper(strings.TrimSpace(r.URL.Query().Get("coupon_code")))
 
 	// ignores the error retrieving recommendations since it is not critical
 	recommendations, err := fe.getRecommendations(r.Context(), sessionID(r), cartIDs(cart))
@@ -280,7 +301,7 @@ func (fe *frontendServer) viewCartHandler(w http.ResponseWriter, r *http.Request
 		Price    *pb.Money
 	}
 	items := make([]cartItemView, len(cart))
-	totalPrice := pb.Money{CurrencyCode: currentCurrency(r)}
+	subtotalPrice := pb.Money{CurrencyCode: currentCurrency(r)}
 	for i, item := range cart {
 		p, err := fe.getProduct(r.Context(), item.GetProductId())
 		if err != nil {
@@ -298,9 +319,24 @@ func (fe *frontendServer) viewCartHandler(w http.ResponseWriter, r *http.Request
 			Item:     p,
 			Quantity: item.GetQuantity(),
 			Price:    &multPrice}
-		totalPrice = money.Must(money.Sum(totalPrice, multPrice))
+		subtotalPrice = money.Must(money.Sum(subtotalPrice, multPrice))
 	}
-	totalPrice = money.Must(money.Sum(totalPrice, *shippingCost))
+	totalPrice := money.Must(money.Sum(subtotalPrice, *shippingCost))
+	couponDiscount := &pb.Money{CurrencyCode: currentCurrency(r)}
+	couponFinalTotal := &totalPrice
+	couponMessage := ""
+	couponApplied := false
+	if couponCode != "" {
+		discount, finalTotal, message, err := fe.applyCoupon(r.Context(), couponCode, sessionID(r), &subtotalPrice, shippingCost)
+		couponMessage = message
+		if err != nil {
+			log.WithField("coupon_code", couponCode).WithField("error", err).Warn("failed to apply coupon preview")
+		} else {
+			couponApplied = true
+			couponDiscount = discount
+			couponFinalTotal = finalTotal
+		}
+	}
 	year := time.Now().Year()
 
 	if err := templates.ExecuteTemplate(w, "cart", injectCommonTemplateData(r, map[string]interface{}{
@@ -308,8 +344,14 @@ func (fe *frontendServer) viewCartHandler(w http.ResponseWriter, r *http.Request
 		"recommendations":  recommendations,
 		"cart_size":        cartSize(cart),
 		"shipping_cost":    shippingCost,
+		"subtotal_cost":    subtotalPrice,
 		"show_currency":    true,
 		"total_cost":       totalPrice,
+		"coupon_code":      couponCode,
+		"coupon_message":   couponMessage,
+		"coupon_applied":   couponApplied,
+		"coupon_discount":  couponDiscount,
+		"final_total":      couponFinalTotal,
 		"items":            items,
 		"expiration_years": []int{year, year + 1, year + 2, year + 3, year + 4},
 	})); err != nil {
@@ -332,6 +374,7 @@ func (fe *frontendServer) placeOrderHandler(w http.ResponseWriter, r *http.Reque
 		ccMonth, _    = strconv.ParseInt(r.FormValue("credit_card_expiration_month"), 10, 32)
 		ccYear, _     = strconv.ParseInt(r.FormValue("credit_card_expiration_year"), 10, 32)
 		ccCVV, _      = strconv.ParseInt(r.FormValue("credit_card_cvv"), 10, 32)
+		couponCode    = strings.ToUpper(strings.TrimSpace(r.FormValue("coupon_code")))
 	)
 
 	payload := validator.PlaceOrderPayload{
@@ -351,8 +394,12 @@ func (fe *frontendServer) placeOrderHandler(w http.ResponseWriter, r *http.Reque
 		return
 	}
 
+	checkoutCtx := r.Context()
+	if couponCode != "" {
+		checkoutCtx = metadata.AppendToOutgoingContext(checkoutCtx, "coupon-code", couponCode)
+	}
 	order, err := pb.NewCheckoutServiceClient(fe.checkoutSvcConn).
-		PlaceOrder(r.Context(), &pb.PlaceOrderRequest{
+		PlaceOrder(checkoutCtx, &pb.PlaceOrderRequest{
 			Email: payload.Email,
 			CreditCard: &pb.CreditCardInfo{
 				CreditCardNumber:          payload.CcNumber,
@@ -369,7 +416,7 @@ func (fe *frontendServer) placeOrderHandler(w http.ResponseWriter, r *http.Reque
 				Country:       payload.Country},
 		})
 	if err != nil {
-		renderHTTPError(log, r, w, errors.Wrap(err, "failed to complete the order"), http.StatusInternalServerError)
+		renderHTTPError(log, r, w, fmt.Errorf("failed to complete the order: %s", userVisibleRPCError(err)), http.StatusInternalServerError)
 		return
 	}
 	log.WithField("order", order.GetOrder().GetOrderId()).Info("order placed")
@@ -546,6 +593,15 @@ func renderHTTPError(log logrus.FieldLogger, r *http.Request, w http.ResponseWri
 	})); templateErr != nil {
 		log.Println(templateErr)
 	}
+}
+
+func userVisibleRPCError(err error) string {
+	msg := err.Error()
+	const descMarker = "desc = "
+	if idx := strings.Index(msg, descMarker); idx >= 0 {
+		msg = msg[idx+len(descMarker):]
+	}
+	return strings.TrimSpace(msg)
 }
 
 func injectCommonTemplateData(r *http.Request, payload map[string]interface{}) map[string]interface{} {

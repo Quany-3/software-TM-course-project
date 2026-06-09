@@ -1,0 +1,42 @@
+{
+  "SAVE10": {
+    "type": "fixed",
+    "value": 10.0,
+    "min_subtotal": 50.0,
+    "enabled": true,
+    "expires_at": null,
+    "description": "Save $10 when subtotal is at least $50"
+  },
+  "OFF20": {
+    "type": "percentage",
+    "value": 0.2,
+    "min_subtotal": 100.0,
+    "enabled": true,
+    "expires_at": null,
+    "description": "20% off when subtotal is at least $100"
+  },
+  "FREESHIP": {
+    "type": "free_shipping",
+    "value": 0.0,
+    "min_subtotal": 0.0,
+    "enabled": true,
+    "expires_at": null,
+    "description": "Free shipping"
+  },
+  "EXPIRED10": {
+    "type": "fixed",
+    "value": 10.0,
+    "min_subtotal": 0.0,
+    "enabled": true,
+    "expires_at": "2025-01-01T00:00:00Z",
+    "description": "Expired coupon for testing"
+  },
+  "DISABLED5": {
+    "type": "fixed",
+    "value": 5.0,
+    "min_subtotal": 0.0,
+    "enabled": false,
+    "expires_at": null,
+    "description": "Disabled coupon for testing"
+  }
+}

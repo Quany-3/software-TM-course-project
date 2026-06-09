@@ -66,6 +66,12 @@ spec:
             value: "currencyservice:7000"
           - name: CART_SERVICE_ADDR
             value: "cartservice:7070"
+          - name: INVENTORY_SERVICE_ADDR
+            value: "inventoryservice:50052"
+          - name: COUPON_SERVICE_ADDR
+            value: "couponservice:50053"
+          - name: DEFAULT_COUPON_CODE
+            value: ""
           resources:
             requests:
               cpu: 100m
