@@ -252,7 +252,7 @@ func (fe *frontendServer) addToCartHandler(w http.ResponseWriter, r *http.Reques
 		renderHTTPError(log, r, w, errors.Wrap(err, "failed to add to cart"), http.StatusInternalServerError)
 		return
 	}
-	w.Header().Set("location", baseUrl + "/cart")
+	w.Header().Set("location", baseUrl+"/cart")
 	w.WriteHeader(http.StatusFound)
 }
 
@@ -264,7 +264,7 @@ func (fe *frontendServer) emptyCartHandler(w http.ResponseWriter, r *http.Reques
 		renderHTTPError(log, r, w, errors.Wrap(err, "failed to empty cart"), http.StatusInternalServerError)
 		return
 	}
-	w.Header().Set("location", baseUrl + "/")
+	w.Header().Set("location", baseUrl+"/")
 	w.WriteHeader(http.StatusFound)
 }
 
@@ -424,10 +424,20 @@ func (fe *frontendServer) placeOrderHandler(w http.ResponseWriter, r *http.Reque
 	order.GetOrder().GetItems()
 	recommendations, _ := fe.getRecommendations(r.Context(), sessionID(r), nil)
 
-	totalPaid := *order.GetOrder().GetShippingCost()
+	subtotalPaid := pb.Money{CurrencyCode: currentCurrency(r)}
 	for _, v := range order.GetOrder().GetItems() {
 		multPrice := money.MultiplySlow(*v.GetCost(), uint32(v.GetItem().GetQuantity()))
-		totalPaid = money.Must(money.Sum(totalPaid, multPrice))
+		subtotalPaid = money.Must(money.Sum(subtotalPaid, multPrice))
+	}
+
+	totalPaid := money.Must(money.Sum(subtotalPaid, *order.GetOrder().GetShippingCost()))
+	if couponCode != "" {
+		_, finalTotal, _, err := fe.applyCoupon(r.Context(), couponCode, sessionID(r), &subtotalPaid, order.GetOrder().GetShippingCost())
+		if err != nil {
+			log.WithField("coupon_code", couponCode).WithField("error", err).Warn("failed to apply coupon to order total")
+		} else {
+			totalPaid = *finalTotal
+		}
 	}
 
 	currencies, err := fe.getCurrencies(r.Context())
@@ -470,7 +480,7 @@ func (fe *frontendServer) logoutHandler(w http.ResponseWriter, r *http.Request) 
 		c.MaxAge = -1
 		http.SetCookie(w, c)
 	}
-	w.Header().Set("Location", baseUrl + "/")
+	w.Header().Set("Location", baseUrl+"/")
 	w.WriteHeader(http.StatusFound)
 }
 
