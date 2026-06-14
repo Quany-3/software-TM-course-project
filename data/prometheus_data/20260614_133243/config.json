@@ -1,0 +1,14 @@
+{
+  "baseline": 1200,
+  "fault": 120,
+  "recovery": 10,
+  "rounds": 30,
+  "experiments": [
+    "pod-kill-frontend",
+    "pod-kill-random",
+    "cpu-stress",
+    "memory-stress",
+    "net-delay"
+  ],
+  "n_queries": 32
+}

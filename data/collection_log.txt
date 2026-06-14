@@ -1,0 +1,73 @@
+Discovering pods in default namespace...
+  Found 15 pods: ['adservice-64dd5464b8-jlchp', 'cartservice-7956c8c845-s8bw5', 'checkoutservice-dcf4c5c7b-n6tmr', 'couponservice-74995cd98d-cpwc2', 'currencyservice-8fdf6cf9d-4fqrt', 'emailservice-588bb96b8-2v4fw', 'frontend-759775d795-m5m79', 'frontend-759775d795-qzdkj', 'inventoryservice-59c54c8d8-msglb', 'loadgenerator-5c7cbd94ff-mwhrf', 'paymentservice-66c65775b-zpr5q', 'productcatalogservice-c4cfd98fb-c8d5f', 'recommendationservice-b5b5bfc56-zzdjk', 'redis-cart-6899b65948-sdqbf', 'shippingservice-5dcc4d7bd-24vkk']
+  Total queries: 32
+
+============================================================
+Data Collection: 1200s baseline + 30 x 120s faults
+Output: data/prometheus_data\20260614_133243
+============================================================
+
+[1/31] BASELINE (normal) ！ 1200s
+    [0] 10/240 (5s elapsed)
+    [0] 20/240 (12s elapsed)
+    [0] 30/240 (19s elapsed)
+    [0] 40/240 (26s elapsed)
+    [0] 50/240 (32s elapsed)
+    [0] 60/240 (40s elapsed)
+    [0] 70/240 (47s elapsed)
+    [0] 80/240 (54s elapsed)
+    [0] 90/240 (61s elapsed)
+    [0] 100/240 (66s elapsed)
+    [0] 110/240 (70s elapsed)
+    [0] 120/240 (77s elapsed)
+    [0] 130/240 (82s elapsed)
+    [0] 140/240 (88s elapsed)
+    [0] 150/240 (93s elapsed)
+    [0] 160/240 (99s elapsed)
+    [0] 170/240 (104s elapsed)
+    [0] 180/240 (110s elapsed)
+    [0] 190/240 (114s elapsed)
+    [0] 200/240 (118s elapsed)
+    [0] 210/240 (121s elapsed)
+    [0] 220/240 (125s elapsed)
+    [0] 230/240 (129s elapsed)
+    [0] 240/240 (135s elapsed)
+  Collected 240 samples
+
+[2/31] FAULT: pod-kill-frontend ！ 120s
+  [CHAOS] pod-kill-frontend applied
+    [1] 10/24 (7s elapsed)
+    [1] 20/24 (12s elapsed)
+  Collected 24 samples
+  [CHAOS] pod-kill-frontend deleted
+  Recovery: 10s
+
+[3/31] FAULT: pod-kill-random ！ 120s
+  [CHAOS] pod-kill-random applied
+    [1] 10/24 (7s elapsed)
+    [1] 20/24 (14s elapsed)
+  Collected 24 samples
+  [CHAOS] pod-kill-random deleted
+  Recovery: 10s
+
+[4/31] FAULT: cpu-stress ！ 120s
+  [CHAOS] cpu-stress applied
+    [1] 10/24 (7s elapsed)
+    [1] 20/24 (14s elapsed)
+  Collected 24 samples
+  [CHAOS] cpu-stress deleted
+  Recovery: 10s
+
+[5/31] FAULT: memory-stress ！ 120s
+  [CHAOS] memory-stress applied
+    [1] 10/24 (7s elapsed)
+    [1] 20/24 (15s elapsed)
+  Collected 24 samples
+  [CHAOS] memory-stress deleted
+  Recovery: 10s
+
+[6/31] FAULT: net-delay ！ 120s
+  [CHAOS] net-delay applied
+    [1] 10/24 (7s elapsed)
+    [1] 20/24 (14s elapsed)
+  Collected 24 samples
