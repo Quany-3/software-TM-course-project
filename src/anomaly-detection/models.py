@@ -275,7 +275,14 @@ def donut_loss_fn(x, mu_x, logvar_x, mu_z, logvar_z, mask=None):
     return -elbo.mean()
 
 
-def train_donut(model, train_loader, val_loader, epochs, lr=1e-3, device='cpu'):
+def train_donut(model, train_loader, val_loader, epochs, lr=1e-3,
+                missing_rate=0.01, device='cpu'):
+    """Train Donut with M-ELBO and missing data injection (WWW 2018).
+
+    During training, ~1% of points in each window are randomly set to 0
+    (the mean of z-scored data) and masked from the reconstruction loss.
+    This forces the VAE to learn robust representations.
+    """
     model = model.to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
@@ -291,14 +298,22 @@ def train_donut(model, train_loader, val_loader, epochs, lr=1e-3, device='cpu'):
             batch = batch.to(device)
             n_batches += 1
 
+            # M-ELBO: randomly inject missing points (~1%)
+            if missing_rate > 0:
+                mask = (torch.rand_like(batch) > missing_rate).float()
+                batch_masked = batch * mask
+            else:
+                mask = torch.ones_like(batch)
+                batch_masked = batch
+
             optimizer.zero_grad()
-            mu_x, logvar_x, mu_z, logvar_z, z = model(batch)
-            loss = donut_loss_fn(batch, mu_x, logvar_x, mu_z, logvar_z)
+            mu_x, logvar_x, mu_z, logvar_z, z = model(batch_masked)
+            loss = donut_loss_fn(batch, mu_x, logvar_x, mu_z, logvar_z, mask)
             loss.backward()
             optimizer.step()
             train_loss += loss.item()
 
-        # Validation
+        # Validation: no missing data injection
         model.eval()
         val_loss = 0.0
         with torch.no_grad():
@@ -307,7 +322,8 @@ def train_donut(model, train_loader, val_loader, epochs, lr=1e-3, device='cpu'):
                     batch = batch[0]
                 batch = batch.to(device)
                 mu_x, logvar_x, mu_z, logvar_z, z = model(batch)
-                val_loss += donut_loss_fn(batch, mu_x, logvar_x, mu_z, logvar_z).item()
+                val_loss += donut_loss_fn(batch, mu_x, logvar_x,
+                                         mu_z, logvar_z).item()
 
         n_val = len(val_loader)
         history.append({

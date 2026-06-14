@@ -1,0 +1,65 @@
+{
+  "usad": {
+    "metrics": {
+      "precision": 0.8991596638655462,
+      "recall": 0.8359375,
+      "f1": 0.8663967611336032,
+      "auc_roc": 0.953125
+    },
+    "threshold": 0.6357987400144338,
+    "n_anomalies": 119
+  },
+  "donut": {
+    "mem_cartservice_7956c8c845_s8bw5": {
+      "metrics": {
+        "precision": 0.8373983739837398,
+        "recall": 0.8046875,
+        "f1": 0.8207171314741036,
+        "auc_roc": 0.8367838541666667
+      },
+      "threshold": -0.12130614370107654
+    },
+    "mem_shippingservice_5dcc4d7bd_24vkk": {
+      "metrics": {
+        "precision": 0.6153846153846154,
+        "recall": 0.125,
+        "f1": 0.2077922077922078,
+        "auc_roc": 0.8316731770833333
+      },
+      "threshold": -1.2171896934509276
+    },
+    "mem_loadgenerator_5c7cbd94ff_mwhrf": {
+      "metrics": {
+        "precision": 0.9181818181818182,
+        "recall": 0.7890625,
+        "f1": 0.8487394957983193,
+        "auc_roc": 0.9680013020833333
+      },
+      "threshold": -1.4644238710403443
+    },
+    "mem_currencyservice_8fdf6cf9d_4fqrt": {
+      "metrics": {
+        "precision": 0.11764705882352941,
+        "recall": 0.015625,
+        "f1": 0.027586206896551724,
+        "auc_roc": 0.22141927083333335
+      },
+      "threshold": -3.161312532424927
+    },
+    "cpu_frontend_759775d795_m5m79": {
+      "metrics": {
+        "precision": 0.9029850746268657,
+        "recall": 0.9453125,
+        "f1": 0.9236641221374046,
+        "auc_roc": 0.9193033854166668
+      },
+      "threshold": -1.2951852560043338
+    }
+  },
+  "config": {
+    "data": "data/prometheus_data/20260614_133243/metrics.csv",
+    "window": 8,
+    "epochs": 100,
+    "timestamp": "2026-06-14T15:46:36.980432"
+  }
+}

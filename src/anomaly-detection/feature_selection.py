@@ -15,7 +15,7 @@ import sys
 def analyze_features(df, label_col='label'):
     """Rank features by their sensitivity to faults."""
     # Exclude non-feature columns
-    exclude = {label_col, 'timestamp'}
+    exclude = {label_col, 'timestamp', 'timestamp_sec', 'window', 'phase'}
     feature_cols = [c for c in df.columns if c not in exclude]
 
     normal = df[df[label_col] == 0]

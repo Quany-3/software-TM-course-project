@@ -1,0 +1,82 @@
+{
+  "top_n": 10,
+  "selected_features": [
+    "avg_threads",
+    "all_threads",
+    "throughput_req_per_sec",
+    "median_latency_ms",
+    "avg_latency_ms",
+    "p90_latency_ms",
+    "max_latency_ms",
+    "p99_latency_ms",
+    "min_latency_ms",
+    "avg_bytes"
+  ],
+  "all_rankings": [
+    {
+      "feature": "avg_threads",
+      "effect_size": 2.925844791363882,
+      "ks_stat": 0.9686800894854586
+    },
+    {
+      "feature": "all_threads",
+      "effect_size": 2.925841310269131,
+      "ks_stat": 0.9686800894854586
+    },
+    {
+      "feature": "throughput_req_per_sec",
+      "effect_size": 2.68662980850622,
+      "ks_stat": 0.932017452443481
+    },
+    {
+      "feature": "median_latency_ms",
+      "effect_size": 1.5972401090187134,
+      "ks_stat": 0.9674434115636333
+    },
+    {
+      "feature": "avg_latency_ms",
+      "effect_size": 1.5451219013374207,
+      "ks_stat": 0.8855656064585157
+    },
+    {
+      "feature": "p90_latency_ms",
+      "effect_size": 1.2822126671644078,
+      "ks_stat": 0.7999777675879223
+    },
+    {
+      "feature": "max_latency_ms",
+      "effect_size": 1.0799863291697296,
+      "ks_stat": 0.5284227493156586
+    },
+    {
+      "feature": "p99_latency_ms",
+      "effect_size": 1.0565367059759294,
+      "ks_stat": 0.5681631859046508
+    },
+    {
+      "feature": "min_latency_ms",
+      "effect_size": 0.5683181603081993,
+      "ks_stat": 0.6052148901579891
+    },
+    {
+      "feature": "avg_bytes",
+      "effect_size": 0.16467926499380506,
+      "ks_stat": 0.08154431892395125
+    },
+    {
+      "feature": "avg_sent_bytes",
+      "effect_size": 0.1346146528206519,
+      "ks_stat": 0.09807967540678367
+    },
+    {
+      "feature": "avg_connect_ms",
+      "effect_size": 0.028289328329721433,
+      "ks_stat": 0.07317242625092056
+    },
+    {
+      "feature": "error_rate",
+      "effect_size": 0.0,
+      "ks_stat": 0.0
+    }
+  ]
+}

@@ -159,12 +159,13 @@ def detect_anomalies_usad(model, data, norm_params, window_size, stride=1,
 
 
 def score_donut_timestamps(model, data, norm_params, window_size, stride=1,
-                           n_samples=50, device='cpu', reduction='last'):
+                           n_samples=1024, device='cpu', reduction='last',
+                           norm_method='zscore'):
     """Score each timestamp with Donut reconstruction probability."""
     model.eval()
     model = model.to(device)
 
-    normalized = apply_normalize(data.reshape(-1, 1), norm_params)
+    normalized = apply_normalize(data.reshape(-1, 1), norm_params, method=norm_method)
     # Donut expects univariate, so take first column if multivariate
     if normalized.ndim == 2 and normalized.shape[1] > 1:
         normalized = normalized[:, :1]
@@ -200,17 +201,19 @@ def score_donut_timestamps(model, data, norm_params, window_size, stride=1,
 
 
 def detect_anomalies_donut(model, data, norm_params, window_size, stride=1,
-                           threshold_percentile=95, n_samples=50, device='cpu',
-                           threshold_data=None, reduction='last'):
+                           threshold_percentile=95, n_samples=1024, device='cpu',
+                           threshold_data=None, reduction='last',
+                           norm_method='zscore'):
     """Run Donut on full dataset and return anomaly labels."""
     avg_scores = score_donut_timestamps(
-        model, data, norm_params, window_size, stride, n_samples, device, reduction
+        model, data, norm_params, window_size, stride, n_samples, device, reduction,
+        norm_method=norm_method
     )
 
     calibration_data = data if threshold_data is None else threshold_data
     calibration_scores = score_donut_timestamps(
         model, calibration_data, norm_params, window_size, stride, n_samples,
-        device, reduction
+        device, reduction, norm_method=norm_method
     )
     if reduction == 'last':
         calibration_scores = calibration_scores[window_size - 1:]
@@ -382,7 +385,7 @@ def main():
 
             train_loader, val_loader, norm_params, norm_data, windows = prepare_data(
                 univar_train_data, window_size=args.window, stride=args.stride,
-                val_ratio=0.2, norm_method='minmax', model_type='donut',
+                val_ratio=0.2, norm_method='zscore', model_type='donut',
                 random_seed=args.seed
             )
 
