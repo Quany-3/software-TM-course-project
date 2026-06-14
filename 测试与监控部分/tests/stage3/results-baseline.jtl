@@ -1,0 +1,1495 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1781011257331,184,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,1,1,http://localhost:8080/,176,0,22
+1781011258172,11,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8272,187,1,1,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011258450,29,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17524,463,1,1,http://localhost:8080/cart,12,0,0
+1781011258450,12,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,1,1,http://localhost:8080/cart,12,0,0
+1781011258463,16,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17429,173,1,1,http://localhost:8080/cart,15,0,0
+1781011258848,15,GET Cart,200,OK,User purchase flow 1-1,text,true,,17423,173,2,2,http://localhost:8080/cart,14,0,0
+1781011259345,29,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,2,2,http://localhost:8080/,29,0,1
+1781011259612,20,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6967,522,2,2,http://localhost:8080/cart/checkout,20,0,0
+1781011259720,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8250,187,2,2,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011260181,14,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,2,2,http://localhost:8080/,14,0,0
+1781011260358,35,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17546,463,2,2,http://localhost:8080/cart,15,0,0
+1781011260358,15,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,2,2,http://localhost:8080/cart,15,0,0
+1781011260373,20,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17451,173,2,2,http://localhost:8080/cart,19,0,0
+1781011260444,16,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8250,187,2,2,http://localhost:8080/product/OLJCESPC7Z,16,0,0
+1781011260803,28,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,3,3,http://localhost:8080/,28,0,1
+1781011261347,19,GET Cart,200,OK,User purchase flow 1-2,text,true,,17475,173,3,3,http://localhost:8080/cart,18,0,0
+1781011261423,22,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17510,463,3,3,http://localhost:8080/cart,9,0,0
+1781011261423,9,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,3,3,http://localhost:8080/cart,9,0,0
+1781011261432,13,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17415,173,3,3,http://localhost:8080/cart,13,0,0
+1781011261698,15,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8298,187,3,3,http://localhost:8080/product/OLJCESPC7Z,15,0,0
+1781011261836,18,GET Cart,200,OK,User purchase flow 1-1,text,true,,17435,173,3,3,http://localhost:8080/cart,17,0,0
+1781011262044,19,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6941,522,3,3,http://localhost:8080/cart/checkout,19,0,0
+1781011262508,17,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17510,463,4,4,http://localhost:8080/cart,7,0,0
+1781011262508,7,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,4,4,http://localhost:8080/cart,7,0,0
+1781011262516,9,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17415,173,4,4,http://localhost:8080/cart,9,0,0
+1781011262809,17,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6951,522,4,4,http://localhost:8080/cart/checkout,17,0,0
+1781011262838,56,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,4,4,http://localhost:8080/,56,0,0
+1781011262889,24,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,4,4,http://localhost:8080/,24,0,0
+1781011262963,12,GET Cart,200,OK,User purchase flow 1-3,text,true,,17399,173,4,4,http://localhost:8080/cart,11,0,0
+1781011262980,39,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,4,4,http://localhost:8080/,38,0,0
+1781011263391,31,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8254,187,4,4,http://localhost:8080/product/OLJCESPC7Z,30,0,0
+1781011263566,13,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8258,187,4,4,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011263564,15,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8298,187,4,4,http://localhost:8080/product/OLJCESPC7Z,15,0,0
+1781011263691,16,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17536,463,4,4,http://localhost:8080/cart,6,0,0
+1781011263691,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,4,4,http://localhost:8080/cart,6,0,0
+1781011263697,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17441,173,4,4,http://localhost:8080/cart,10,0,0
+1781011263704,18,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6955,522,4,4,http://localhost:8080/cart/checkout,18,0,0
+1781011264071,10,GET Cart,200,OK,User purchase flow 1-2,text,true,,17441,173,4,4,http://localhost:8080/cart,10,0,0
+1781011264372,18,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17554,463,4,4,http://localhost:8080/cart,7,0,0
+1781011264372,7,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,4,4,http://localhost:8080/cart,7,0,0
+1781011264379,11,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17459,173,4,4,http://localhost:8080/cart,10,0,0
+1781011264462,24,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,23,0,0
+1781011264472,28,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17532,463,5,5,http://localhost:8080/cart,15,0,0
+1781011264472,15,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,15,0,0
+1781011264488,12,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17437,173,5,5,http://localhost:8080/cart,12,0,0
+1781011264830,67,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8282,187,5,5,http://localhost:8080/product/OLJCESPC7Z,67,0,0
+1781011264850,52,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6999,522,5,5,http://localhost:8080/cart/checkout,52,0,0
+1781011265067,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17449,173,5,5,http://localhost:8080/cart,10,0,0
+1781011265054,25,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,25,0,1
+1781011265393,10,GET Cart,200,OK,User purchase flow 1-4,text,true,,17465,173,5,5,http://localhost:8080/cart,10,0,0
+1781011265457,15,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17514,463,5,5,http://localhost:8080/cart,6,0,0
+1781011265457,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011265463,9,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17419,173,5,5,http://localhost:8080/cart,9,0,0
+1781011265485,18,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6933,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011265541,15,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011265621,13,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8252,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011265655,12,GET Cart,200,OK,User purchase flow 1-3,text,true,,17447,173,5,5,http://localhost:8080/cart,12,0,0
+1781011265853,16,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,16,0,0
+1781011265859,17,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6937,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011265869,17,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17528,463,5,5,http://localhost:8080/cart,6,0,0
+1781011265869,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011265875,11,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17433,173,5,5,http://localhost:8080/cart,11,0,0
+1781011266015,12,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8272,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011266037,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17401,173,5,5,http://localhost:8080/cart,10,0,0
+1781011266173,116,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17516,463,5,5,http://localhost:8080/cart,103,0,0
+1781011266173,103,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,103,0,0
+1781011266276,13,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17421,173,5,5,http://localhost:8080/cart,13,0,0
+1781011266293,18,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6961,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011266458,17,GET Cart,200,OK,User purchase flow 1-2,text,true,,17409,173,5,5,http://localhost:8080/cart,16,0,0
+1781011266481,19,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6949,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011266551,12,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011266597,13,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011266820,262,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,262,0,0
+1781011266691,401,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,401,0,0
+1781011266981,117,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6977,522,5,5,http://localhost:8080/cart/checkout,117,0,0
+1781011267082,22,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17558,463,5,5,http://localhost:8080/cart,9,0,0
+1781011267082,9,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,9,0,0
+1781011267092,12,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17463,173,5,5,http://localhost:8080/cart,12,0,0
+1781011267135,33,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,32,0,0
+1781011267354,359,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,359,0,0
+1781011267625,115,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8316,187,5,5,http://localhost:8080/product/OLJCESPC7Z,115,0,0
+1781011267634,116,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17538,463,5,5,http://localhost:8080/cart,82,0,0
+1781011267634,82,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,82,0,0
+1781011267716,34,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17443,173,5,5,http://localhost:8080/cart,33,0,0
+1781011267892,22,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8286,187,5,5,http://localhost:8080/product/OLJCESPC7Z,22,0,0
+1781011267945,20,GET Cart,200,OK,User purchase flow 1-1,text,true,,17435,173,5,5,http://localhost:8080/cart,20,0,0
+1781011268068,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17459,173,5,5,http://localhost:8080/cart,11,0,0
+1781011268126,19,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17548,463,5,5,http://localhost:8080/cart,6,0,0
+1781011268132,13,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8256,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011268126,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011268132,13,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17453,173,5,5,http://localhost:8080/cart,13,0,0
+1781011268309,13,GET Cart,200,OK,User purchase flow 1-4,text,true,,17465,173,5,5,http://localhost:8080/cart,12,0,0
+1781011268307,19,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17504,463,5,5,http://localhost:8080/cart,7,0,0
+1781011268307,7,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011268315,11,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17409,173,5,5,http://localhost:8080/cart,11,0,0
+1781011268440,30,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6961,522,5,5,http://localhost:8080/cart/checkout,30,0,0
+1781011268508,23,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6951,522,5,5,http://localhost:8080/cart/checkout,23,0,0
+1781011268540,25,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6959,522,5,5,http://localhost:8080/cart/checkout,25,0,0
+1781011268679,20,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,20,0,0
+1781011268876,12,GET Cart,200,OK,User purchase flow 1-5,text,true,,17445,173,5,5,http://localhost:8080/cart,12,0,0
+1781011268990,21,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,21,0,0
+1781011269011,24,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17542,463,5,5,http://localhost:8080/cart,8,0,0
+1781011269011,8,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011269019,16,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17447,173,5,5,http://localhost:8080/cart,16,0,0
+1781011269081,14,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8238,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011269100,12,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8256,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011269156,18,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6959,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011269426,18,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17496,463,5,5,http://localhost:8080/cart,6,0,0
+1781011269426,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011269432,12,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17401,173,5,5,http://localhost:8080/cart,12,0,0
+1781011269447,21,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,21,0,0
+1781011269461,107,GET Cart,200,OK,User purchase flow 1-1,text,true,,17433,173,5,5,http://localhost:8080/cart,107,0,0
+1781011269459,114,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,113,0,0
+1781011269502,74,GET Cart,200,OK,User purchase flow 1-2,text,true,,17443,173,5,5,http://localhost:8080/cart,74,0,0
+1781011269706,29,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8276,187,5,5,http://localhost:8080/product/OLJCESPC7Z,29,0,0
+1781011269676,63,POST Checkout,200,OK,User purchase flow 1-2,text,true,,7001,522,5,5,http://localhost:8080/cart/checkout,63,0,0
+1781011269888,19,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17512,463,5,5,http://localhost:8080/cart,7,0,0
+1781011269888,7,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011269895,12,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17417,173,5,5,http://localhost:8080/cart,12,0,0
+1781011270351,12,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8282,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011270332,32,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17554,463,5,5,http://localhost:8080/cart,19,0,0
+1781011270332,19,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,19,0,0
+1781011270351,13,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17459,173,5,5,http://localhost:8080/cart,12,0,0
+1781011270406,17,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6951,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011270454,13,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011270507,10,GET Cart,200,OK,User purchase flow 1-4,text,true,,17453,173,5,5,http://localhost:8080/cart,10,0,0
+1781011270545,12,GET Cart,200,OK,User purchase flow 1-3,text,true,,17453,173,5,5,http://localhost:8080/cart,12,0,0
+1781011270725,17,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17512,463,5,5,http://localhost:8080/cart,7,0,0
+1781011270725,7,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011270733,9,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17417,173,5,5,http://localhost:8080/cart,9,0,0
+1781011270895,17,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,17,0,0
+1781011270864,121,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6953,522,5,5,http://localhost:8080/cart/checkout,121,0,0
+1781011271048,17,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6973,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011271066,11,GET Cart,200,OK,User purchase flow 1-5,text,true,,17409,173,5,5,http://localhost:8080/cart,11,0,0
+1781011271150,10,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8280,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011271170,13,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011271302,16,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,16,0,0
+1781011271432,17,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6973,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011271512,10,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011271663,18,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17566,463,5,5,http://localhost:8080/cart,6,0,0
+1781011271663,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011271669,12,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17471,173,5,5,http://localhost:8080/cart,11,0,0
+1781011271744,17,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17534,463,5,5,http://localhost:8080/cart,7,0,0
+1781011271744,7,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011271751,10,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17439,173,5,5,http://localhost:8080/cart,10,0,0
+1781011271780,14,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011272101,114,GET Cart,200,OK,User purchase flow 1-1,text,true,,17417,173,5,5,http://localhost:8080/cart,114,0,0
+1781011272153,69,GET Cart,200,OK,User purchase flow 1-2,text,true,,17401,173,5,5,http://localhost:8080/cart,69,0,0
+1781011272226,11,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8242,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011272270,16,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17528,463,5,5,http://localhost:8080/cart,6,0,0
+1781011272270,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011272277,9,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17433,173,5,5,http://localhost:8080/cart,9,0,0
+1781011272051,270,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,270,0,0
+1781011272344,18,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6959,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011272463,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17397,173,5,5,http://localhost:8080/cart,11,0,0
+1781011272573,23,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17536,463,5,5,http://localhost:8080/cart,8,0,0
+1781011272573,8,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011272581,15,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17441,173,5,5,http://localhost:8080/cart,15,0,0
+1781011272621,31,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,31,0,0
+1781011272726,11,GET Cart,200,OK,User purchase flow 1-5,text,true,,17429,173,5,5,http://localhost:8080/cart,11,0,0
+1781011272766,18,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6979,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011272790,14,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6969,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011272978,10,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8270,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011272977,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011273243,13,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011273243,14,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011273361,68,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,68,0,0
+1781011273338,270,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6941,522,5,5,http://localhost:8080/cart/checkout,270,0,0
+1781011273625,15,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17530,463,5,5,http://localhost:8080/cart,6,0,0
+1781011273625,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011273631,9,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17435,173,5,5,http://localhost:8080/cart,9,0,0
+1781011273765,19,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17552,463,5,5,http://localhost:8080/cart,8,0,0
+1781011273765,8,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011273773,11,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17457,173,5,5,http://localhost:8080/cart,10,0,0
+1781011273836,18,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17526,463,5,5,http://localhost:8080/cart,7,0,0
+1781011273836,7,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011273843,11,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17431,173,5,5,http://localhost:8080/cart,11,0,0
+1781011273904,12,GET Cart,200,OK,User purchase flow 1-4,text,true,,17441,173,5,5,http://localhost:8080/cart,12,0,0
+1781011273914,14,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011273972,11,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8296,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011274470,19,GET Cart,200,OK,User purchase flow 1-1,text,true,,17425,173,5,5,http://localhost:8080/cart,18,0,0
+1781011274483,38,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6983,522,5,5,http://localhost:8080/cart/checkout,37,0,0
+1781011274655,16,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,16,0,0
+1781011274689,12,GET Cart,200,OK,User purchase flow 1-2,text,true,,17423,173,5,5,http://localhost:8080/cart,12,0,0
+1781011274777,15,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17502,463,5,5,http://localhost:8080/cart,5,0,0
+1781011274777,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011274783,9,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17407,173,5,5,http://localhost:8080/cart,9,0,0
+1781011274810,10,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8240,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011274909,12,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8292,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011274919,16,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6959,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011274988,15,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17566,463,5,5,http://localhost:8080/cart,6,0,0
+1781011274988,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011274995,8,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17471,173,5,5,http://localhost:8080/cart,8,0,0
+1781011275392,12,GET Cart,200,OK,User purchase flow 1-5,text,true,,17455,173,5,5,http://localhost:8080/cart,12,0,0
+1781011275495,13,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011275507,16,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6985,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011275562,29,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17506,463,5,5,http://localhost:8080/cart,12,0,0
+1781011275562,12,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,12,0,0
+1781011275575,16,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17411,173,5,5,http://localhost:8080/cart,16,0,0
+1781011275646,12,GET Cart,200,OK,User purchase flow 1-3,text,true,,17461,173,5,5,http://localhost:8080/cart,12,0,0
+1781011275761,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8270,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011276006,17,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6957,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011276230,108,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17504,463,5,5,http://localhost:8080/cart,6,0,0
+1781011276230,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011276236,102,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17409,173,5,5,http://localhost:8080/cart,102,0,0
+1781011276079,268,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,268,0,0
+1781011276378,16,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6965,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011276435,16,GET Cart,200,OK,User purchase flow 1-4,text,true,,17453,173,5,5,http://localhost:8080/cart,16,0,0
+1781011276749,61,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,61,0,0
+1781011276974,13,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011276970,31,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6979,522,5,5,http://localhost:8080/cart/checkout,31,0,0
+1781011277025,10,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8300,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011277108,94,GET Cart,200,OK,User purchase flow 1-2,text,true,,17439,173,5,5,http://localhost:8080/cart,93,0,0
+1781011277496,13,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011277588,14,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8294,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011277628,29,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6969,522,5,5,http://localhost:8080/cart/checkout,29,0,0
+1781011277728,41,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,41,0,0
+1781011278013,24,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17544,463,5,5,http://localhost:8080/cart,9,0,0
+1781011278013,9,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,9,0,0
+1781011278022,15,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17449,173,5,5,http://localhost:8080/cart,14,0,0
+1781011278013,24,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17526,463,5,5,http://localhost:8080/cart,9,0,0
+1781011278013,9,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,9,0,0
+1781011278022,15,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17431,173,5,5,http://localhost:8080/cart,15,0,0
+1781011278049,64,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8296,187,5,5,http://localhost:8080/product/OLJCESPC7Z,64,0,0
+1781011278141,16,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17518,463,5,5,http://localhost:8080/cart,8,0,0
+1781011278141,8,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011278149,8,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17423,173,5,5,http://localhost:8080/cart,8,0,0
+1781011278349,12,GET Cart,200,OK,User purchase flow 1-3,text,true,,17445,173,5,5,http://localhost:8080/cart,12,0,0
+1781011278395,33,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,33,0,0
+1781011278579,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17415,173,5,5,http://localhost:8080/cart,10,0,0
+1781011278751,13,GET Cart,200,OK,User purchase flow 1-5,text,true,,17433,173,5,5,http://localhost:8080/cart,13,0,0
+1781011278756,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8294,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011278891,19,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6945,522,5,5,http://localhost:8080/cart/checkout,19,0,0
+1781011278936,19,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17562,463,5,5,http://localhost:8080/cart,7,0,0
+1781011278936,7,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011278944,11,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17467,173,5,5,http://localhost:8080/cart,11,0,0
+1781011279027,19,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6967,522,5,5,http://localhost:8080/cart/checkout,19,0,0
+1781011279088,19,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17548,463,5,5,http://localhost:8080/cart,7,0,0
+1781011279088,7,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011279095,12,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17453,173,5,5,http://localhost:8080/cart,11,0,0
+1781011279124,20,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6941,522,5,5,http://localhost:8080/cart/checkout,20,0,0
+1781011279147,16,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,16,0,0
+1781011279185,23,GET Cart,200,OK,User purchase flow 1-4,text,true,,17449,173,5,5,http://localhost:8080/cart,14,0,0
+1781011279317,16,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011279425,11,GET Cart,200,OK,User purchase flow 1-2,text,true,,17459,173,5,5,http://localhost:8080/cart,11,0,0
+1781011279601,20,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,20,0,0
+1781011279821,21,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6961,522,5,5,http://localhost:8080/cart/checkout,21,0,0
+1781011279910,13,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011280214,19,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6973,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011280249,14,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011280285,14,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011280322,12,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011280376,18,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17534,463,5,5,http://localhost:8080/cart,6,0,0
+1781011280376,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011280382,12,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17439,173,5,5,http://localhost:8080/cart,11,0,0
+1781011280527,20,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17550,463,5,5,http://localhost:8080/cart,7,0,0
+1781011280527,7,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011280534,13,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17455,173,5,5,http://localhost:8080/cart,13,0,0
+1781011280623,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011280746,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17439,173,5,5,http://localhost:8080/cart,10,0,0
+1781011280851,12,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011280876,17,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17556,463,5,5,http://localhost:8080/cart,6,0,0
+1781011280876,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011280882,11,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17461,173,5,5,http://localhost:8080/cart,11,0,0
+1781011280998,16,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17526,463,5,5,http://localhost:8080/cart,6,0,0
+1781011280998,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011281004,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17431,173,5,5,http://localhost:8080/cart,10,0,0
+1781011281039,10,GET Cart,200,OK,User purchase flow 1-2,text,true,,17445,173,5,5,http://localhost:8080/cart,10,0,0
+1781011281194,12,GET Cart,200,OK,User purchase flow 1-3,text,true,,17429,173,5,5,http://localhost:8080/cart,12,0,0
+1781011281548,16,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6973,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011281569,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8292,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011281643,20,GET Cart,200,OK,User purchase flow 1-1,text,true,,17433,173,5,5,http://localhost:8080/cart,20,0,0
+1781011281699,22,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,22,0,0
+1781011281820,14,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6959,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011281884,67,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6933,522,5,5,http://localhost:8080/cart/checkout,67,0,0
+1781011281992,29,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6987,522,5,5,http://localhost:8080/cart/checkout,28,0,0
+1781011282171,13,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8262,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011282184,14,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17510,463,5,5,http://localhost:8080/cart,5,0,0
+1781011282184,5,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011282189,9,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17415,173,5,5,http://localhost:8080/cart,9,0,0
+1781011282455,164,GET Cart,200,OK,User purchase flow 1-4,text,true,,17459,173,5,5,http://localhost:8080/cart,164,0,0
+1781011282404,233,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,233,0,0
+1781011282479,203,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,203,0,0
+1781011282481,201,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,201,0,0
+1781011283005,15,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17566,463,5,5,http://localhost:8080/cart,6,0,0
+1781011283005,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011283011,9,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17471,173,5,5,http://localhost:8080/cart,9,0,0
+1781011283101,10,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8298,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011283123,140,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8262,187,5,5,http://localhost:8080/product/OLJCESPC7Z,140,0,0
+1781011283202,61,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8294,187,5,5,http://localhost:8080/product/OLJCESPC7Z,61,0,0
+1781011283276,16,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17504,463,5,5,http://localhost:8080/cart,6,0,0
+1781011283276,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011283282,10,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17409,173,5,5,http://localhost:8080/cart,10,0,0
+1781011283378,15,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6979,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011283580,21,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17528,463,5,5,http://localhost:8080/cart,6,0,0
+1781011283580,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011283587,14,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17433,173,5,5,http://localhost:8080/cart,13,0,0
+1781011283796,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17425,173,5,5,http://localhost:8080/cart,10,0,0
+1781011283812,13,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011283851,49,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17500,463,5,5,http://localhost:8080/cart,6,0,0
+1781011283851,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011283857,43,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17405,173,5,5,http://localhost:8080/cart,42,0,0
+1781011284123,16,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6973,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011284237,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17459,173,5,5,http://localhost:8080/cart,11,0,0
+1781011284349,12,GET Cart,200,OK,User purchase flow 1-1,text,true,,17429,173,5,5,http://localhost:8080/cart,12,0,0
+1781011284516,12,GET Cart,200,OK,User purchase flow 1-2,text,true,,17425,173,5,5,http://localhost:8080/cart,12,0,0
+1781011284530,17,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6955,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011284607,14,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011284633,12,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011284697,37,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6989,522,5,5,http://localhost:8080/cart/checkout,37,0,0
+1781011284823,12,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8278,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011284840,17,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6951,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011284905,11,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8282,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011285062,10,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8296,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011285307,18,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17496,463,5,5,http://localhost:8080/cart,6,0,0
+1781011285307,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011285313,12,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17401,173,5,5,http://localhost:8080/cart,12,0,0
+1781011285319,13,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011285352,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011285570,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8290,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011285620,15,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17518,463,5,5,http://localhost:8080/cart,6,0,0
+1781011285620,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011285627,8,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17423,173,5,5,http://localhost:8080/cart,8,0,0
+1781011285647,15,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17524,463,5,5,http://localhost:8080/cart,5,0,0
+1781011285647,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011285652,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17429,173,5,5,http://localhost:8080/cart,10,0,0
+1781011285683,16,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17554,463,5,5,http://localhost:8080/cart,6,0,0
+1781011285683,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011285689,10,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17459,173,5,5,http://localhost:8080/cart,10,0,0
+1781011285901,11,GET Cart,200,OK,User purchase flow 1-2,text,true,,17417,173,5,5,http://localhost:8080/cart,11,0,0
+1781011285946,10,GET Cart,200,OK,User purchase flow 1-4,text,true,,17417,173,5,5,http://localhost:8080/cart,10,0,0
+1781011286086,14,GET Cart,200,OK,User purchase flow 1-3,text,true,,17443,173,5,5,http://localhost:8080/cart,14,0,0
+1781011286221,12,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8258,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011286260,47,GET Cart,200,OK,User purchase flow 1-5,text,true,,17447,173,5,5,http://localhost:8080/cart,47,0,0
+1781011286309,13,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6969,522,5,5,http://localhost:8080/cart/checkout,13,0,0
+1781011286363,15,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6951,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011286393,15,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6949,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011286603,14,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17508,463,5,5,http://localhost:8080/cart,5,0,0
+1781011286603,5,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011286608,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17413,173,5,5,http://localhost:8080/cart,9,0,0
+1781011286634,12,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011286799,17,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6957,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011287012,20,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,20,0,0
+1781011286958,246,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,246,0,0
+1781011287293,10,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8296,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011287430,187,GET Cart,200,OK,User purchase flow 1-1,text,true,,17441,173,5,5,http://localhost:8080/cart,186,0,0
+1781011287683,18,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17550,463,5,5,http://localhost:8080/cart,7,0,0
+1781011287683,7,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011287690,11,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17455,173,5,5,http://localhost:8080/cart,11,0,0
+1781011287836,48,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,48,0,0
+1781011287897,14,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011288068,10,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8314,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011288235,17,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6993,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011288509,51,GET Cart,200,OK,User purchase flow 1-4,text,true,,17407,173,5,5,http://localhost:8080/cart,51,0,0
+1781011288475,95,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17540,463,5,5,http://localhost:8080/cart,85,0,0
+1781011288475,85,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,85,0,0
+1781011288560,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17445,173,5,5,http://localhost:8080/cart,10,0,0
+1781011288520,67,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,67,0,0
+1781011288708,17,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17508,463,5,5,http://localhost:8080/cart,6,0,0
+1781011288708,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011288714,11,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17413,173,5,5,http://localhost:8080/cart,11,0,0
+1781011288784,11,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8312,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011289038,18,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17526,463,5,5,http://localhost:8080/cart,6,0,0
+1781011288902,154,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6953,522,5,5,http://localhost:8080/cart/checkout,154,0,0
+1781011289038,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011289044,12,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17431,173,5,5,http://localhost:8080/cart,12,0,0
+1781011289056,94,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8280,187,5,5,http://localhost:8080/product/OLJCESPC7Z,94,0,0
+1781011289189,93,GET Cart,200,OK,User purchase flow 1-2,text,true,,17471,173,5,5,http://localhost:8080/cart,93,0,0
+1781011289480,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17431,173,5,5,http://localhost:8080/cart,10,0,0
+1781011289591,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17423,173,5,5,http://localhost:8080/cart,10,0,0
+1781011289676,17,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17524,463,5,5,http://localhost:8080/cart,5,0,0
+1781011289676,5,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011289682,11,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17429,173,5,5,http://localhost:8080/cart,11,0,0
+1781011289554,277,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6973,522,5,5,http://localhost:8080/cart/checkout,277,0,0
+1781011290013,17,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6937,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011290155,13,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011290172,15,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011290202,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8252,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011290311,13,GET Cart,200,OK,User purchase flow 1-5,text,true,,17449,173,5,5,http://localhost:8080/cart,13,0,0
+1781011290471,14,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6971,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011290636,148,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6979,522,5,5,http://localhost:8080/cart/checkout,148,0,0
+1781011290574,211,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17510,463,5,5,http://localhost:8080/cart,201,0,0
+1781011290574,201,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,201,0,0
+1781011290775,10,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17415,173,5,5,http://localhost:8080/cart,10,0,0
+1781011290815,13,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011290856,17,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8294,187,5,5,http://localhost:8080/product/OLJCESPC7Z,16,0,0
+1781011291116,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8300,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011291143,11,GET Cart,200,OK,User purchase flow 1-4,text,true,,17451,173,5,5,http://localhost:8080/cart,11,0,0
+1781011291215,16,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17506,463,5,5,http://localhost:8080/cart,5,0,0
+1781011291215,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011291220,11,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17411,173,5,5,http://localhost:8080/cart,11,0,0
+1781011291349,15,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011291418,18,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6945,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011291460,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011291769,17,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17516,463,5,5,http://localhost:8080/cart,7,0,0
+1781011291769,7,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011291776,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17421,173,5,5,http://localhost:8080/cart,10,0,0
+1781011291882,16,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,16,0,0
+1781011291888,12,GET Cart,200,OK,User purchase flow 1-3,text,true,,17467,173,5,5,http://localhost:8080/cart,12,0,0
+1781011291891,238,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,237,0,0
+1781011292188,14,GET Cart,200,OK,User purchase flow 1-2,text,true,,17447,173,5,5,http://localhost:8080/cart,13,0,0
+1781011292410,27,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6951,522,5,5,http://localhost:8080/cart/checkout,27,0,0
+1781011292423,19,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8276,187,5,5,http://localhost:8080/product/OLJCESPC7Z,18,0,0
+1781011292421,21,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8250,187,5,5,http://localhost:8080/product/OLJCESPC7Z,20,0,0
+1781011292819,21,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17522,463,5,5,http://localhost:8080/cart,8,0,0
+1781011292819,8,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011292828,12,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17427,173,5,5,http://localhost:8080/cart,11,0,0
+1781011292852,41,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,41,0,0
+1781011292908,16,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17548,463,5,5,http://localhost:8080/cart,6,0,0
+1781011292908,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011292914,10,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17453,173,5,5,http://localhost:8080/cart,9,0,0
+1781011293075,16,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17550,463,5,5,http://localhost:8080/cart,6,0,0
+1781011293075,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011293081,10,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17455,173,5,5,http://localhost:8080/cart,10,0,0
+1781011293302,12,GET Cart,200,OK,User purchase flow 1-4,text,true,,17447,173,5,5,http://localhost:8080/cart,11,0,0
+1781011293353,11,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8240,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011293188,237,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6957,522,5,5,http://localhost:8080/cart/checkout,237,0,0
+1781011293645,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17471,173,5,5,http://localhost:8080/cart,10,0,0
+1781011293679,36,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,36,0,0
+1781011293710,11,GET Cart,200,OK,User purchase flow 1-5,text,true,,17447,173,5,5,http://localhost:8080/cart,11,0,0
+1781011293858,20,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17550,463,5,5,http://localhost:8080/cart,7,0,0
+1781011293858,7,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011293865,13,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17455,173,5,5,http://localhost:8080/cart,13,0,0
+1781011294054,17,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6961,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011294162,21,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6993,522,5,5,http://localhost:8080/cart/checkout,21,0,0
+1781011294188,21,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6985,522,5,5,http://localhost:8080/cart/checkout,21,0,0
+1781011294327,12,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8280,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011294335,16,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011294451,15,GET Cart,200,OK,User purchase flow 1-3,text,true,,17397,173,5,5,http://localhost:8080/cart,14,0,0
+1781011294718,13,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011294763,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8254,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011294824,16,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17536,463,5,5,http://localhost:8080/cart,7,0,0
+1781011294824,7,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011294831,9,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17441,173,5,5,http://localhost:8080/cart,9,0,0
+1781011294842,11,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,11,0,0
+1781011294849,10,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8286,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011294949,16,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17510,463,5,5,http://localhost:8080/cart,6,0,0
+1781011294949,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011294955,10,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17415,173,5,5,http://localhost:8080/cart,9,0,0
+1781011295035,11,GET Cart,200,OK,User purchase flow 1-2,text,true,,17411,173,5,5,http://localhost:8080/cart,11,0,0
+1781011295241,14,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6993,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011295356,11,GET Cart,200,OK,User purchase flow 1-4,text,true,,17425,173,5,5,http://localhost:8080/cart,11,0,0
+1781011295415,19,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17570,463,5,5,http://localhost:8080/cart,7,0,0
+1781011295415,7,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011295423,11,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17475,173,5,5,http://localhost:8080/cart,11,0,0
+1781011295671,16,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8264,187,5,5,http://localhost:8080/product/OLJCESPC7Z,16,0,0
+1781011295926,13,GET Cart,200,OK,User purchase flow 1-5,text,true,,17443,173,5,5,http://localhost:8080/cart,13,0,0
+1781011295942,23,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6981,522,5,5,http://localhost:8080/cart/checkout,23,0,0
+1781011296060,19,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6977,522,5,5,http://localhost:8080/cart/checkout,19,0,0
+1781011296088,15,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011296271,17,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6949,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011296375,18,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,18,0,0
+1781011296436,21,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,21,0,0
+1781011296605,22,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17550,463,5,5,http://localhost:8080/cart,8,0,0
+1781011296605,8,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011296613,14,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17455,173,5,5,http://localhost:8080/cart,14,0,0
+1781011296646,15,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011296908,13,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8298,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011296910,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011297193,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17443,173,5,5,http://localhost:8080/cart,10,0,0
+1781011297242,24,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8264,187,5,5,http://localhost:8080/product/OLJCESPC7Z,24,0,0
+1781011297278,11,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8294,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011297302,15,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6963,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011297426,15,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17528,463,5,5,http://localhost:8080/cart,5,0,0
+1781011297426,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011297432,9,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17433,173,5,5,http://localhost:8080/cart,9,0,0
+1781011297446,56,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,55,0,0
+1781011297637,21,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17550,463,5,5,http://localhost:8080/cart,7,0,0
+1781011297637,7,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011297645,13,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17455,173,5,5,http://localhost:8080/cart,12,0,0
+1781011297738,23,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17518,463,5,5,http://localhost:8080/cart,8,0,0
+1781011297738,8,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011297746,15,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17423,173,5,5,http://localhost:8080/cart,15,0,0
+1781011297767,48,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8254,187,5,5,http://localhost:8080/product/OLJCESPC7Z,48,0,0
+1781011297763,58,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17550,463,5,5,http://localhost:8080/cart,8,0,0
+1781011297763,8,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011297771,50,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17455,173,5,5,http://localhost:8080/cart,50,0,0
+1781011298029,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17449,173,5,5,http://localhost:8080/cart,11,0,0
+1781011298131,19,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17516,463,5,5,http://localhost:8080/cart,6,0,0
+1781011298131,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011298137,13,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17421,173,5,5,http://localhost:8080/cart,13,0,0
+1781011298151,12,GET Cart,200,OK,User purchase flow 1-4,text,true,,17447,173,5,5,http://localhost:8080/cart,12,0,0
+1781011298172,55,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6963,522,5,5,http://localhost:8080/cart/checkout,55,0,0
+1781011298249,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17435,173,5,5,http://localhost:8080/cart,10,0,0
+1781011298345,10,GET Cart,200,OK,User purchase flow 1-2,text,true,,17409,173,5,5,http://localhost:8080/cart,10,0,0
+1781011298508,12,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011298619,16,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6945,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011298804,17,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6923,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011298854,12,GET Cart,200,OK,User purchase flow 1-1,text,true,,17397,173,5,5,http://localhost:8080/cart,12,0,0
+1781011299019,18,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6993,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011299133,10,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011299142,14,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6943,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011299160,11,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,11,0,0
+1781011299351,14,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011299412,15,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17522,463,5,5,http://localhost:8080/cart,5,0,0
+1781011299412,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011299417,10,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17427,173,5,5,http://localhost:8080/cart,10,0,0
+1781011299741,18,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8300,187,5,5,http://localhost:8080/product/OLJCESPC7Z,18,0,0
+1781011299736,29,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,29,0,0
+1781011299758,10,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011299775,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011300116,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17473,173,5,5,http://localhost:8080/cart,10,0,0
+1781011300118,12,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8264,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011300121,10,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8254,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011300169,55,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17520,463,5,5,http://localhost:8080/cart,45,0,0
+1781011300169,45,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,45,0,0
+1781011300214,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17425,173,5,5,http://localhost:8080/cart,10,0,0
+1781011300325,15,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17512,463,5,5,http://localhost:8080/cart,5,0,0
+1781011300325,5,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011300331,9,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17417,173,5,5,http://localhost:8080/cart,9,0,0
+1781011300523,19,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17566,463,5,5,http://localhost:8080/cart,8,0,0
+1781011300523,8,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011300531,11,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17471,173,5,5,http://localhost:8080/cart,11,0,0
+1781011300623,10,GET Cart,200,OK,User purchase flow 1-4,text,true,,17437,173,5,5,http://localhost:8080/cart,10,0,0
+1781011300679,12,GET Cart,200,OK,User purchase flow 1-2,text,true,,17429,173,5,5,http://localhost:8080/cart,12,0,0
+1781011300725,16,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6967,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011300762,16,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17520,463,5,5,http://localhost:8080/cart,6,0,0
+1781011300762,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011300768,10,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17425,173,5,5,http://localhost:8080/cart,10,0,0
+1781011300959,12,GET Cart,200,OK,User purchase flow 1-1,text,true,,17451,173,5,5,http://localhost:8080/cart,12,0,0
+1781011300996,14,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011301060,18,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6981,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011301202,12,GET Cart,200,OK,User purchase flow 1-5,text,true,,17423,173,5,5,http://localhost:8080/cart,12,0,0
+1781011301315,18,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6959,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011301371,15,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011301395,19,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6955,522,5,5,http://localhost:8080/cart/checkout,19,0,0
+1781011301407,17,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,17,0,0
+1781011301431,75,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8290,187,5,5,http://localhost:8080/product/OLJCESPC7Z,74,0,0
+1781011301706,11,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,11,0,0
+1781011302015,10,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8264,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011302077,184,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8306,187,5,5,http://localhost:8080/product/OLJCESPC7Z,184,0,0
+1781011302053,538,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6969,522,5,5,http://localhost:8080/cart/checkout,538,0,0
+1781011302407,183,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8296,187,5,5,http://localhost:8080/product/OLJCESPC7Z,183,0,0
+1781011302045,550,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17542,463,5,5,http://localhost:8080/cart,538,0,0
+1781011302045,538,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,538,0,0
+1781011302583,12,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17447,173,5,5,http://localhost:8080/cart,12,0,0
+1781011302550,46,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17552,463,5,5,http://localhost:8080/cart,34,0,0
+1781011302550,34,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,34,0,0
+1781011302584,12,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17457,173,5,5,http://localhost:8080/cart,12,0,0
+1781011302345,253,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17568,463,5,5,http://localhost:8080/cart,238,0,0
+1781011302345,238,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,238,0,0
+1781011302584,14,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17473,173,5,5,http://localhost:8080/cart,14,0,0
+1781011302851,27,GET Cart,200,OK,User purchase flow 1-2,text,true,,17467,173,5,5,http://localhost:8080/cart,27,0,0
+1781011302811,140,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17534,463,5,5,http://localhost:8080/cart,6,0,0
+1781011302811,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011302817,134,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17439,173,5,5,http://localhost:8080/cart,134,0,0
+1781011303166,76,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,76,0,0
+1781011303272,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17425,173,5,5,http://localhost:8080/cart,11,0,0
+1781011303395,21,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6961,522,5,5,http://localhost:8080/cart/checkout,20,0,0
+1781011303422,10,GET Cart,200,OK,User purchase flow 1-4,text,true,,17425,173,5,5,http://localhost:8080/cart,10,0,0
+1781011303531,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17421,173,5,5,http://localhost:8080/cart,10,0,0
+1781011303553,14,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6941,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011303641,9,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8282,187,5,5,http://localhost:8080/product/OLJCESPC7Z,9,0,0
+1781011303883,52,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,52,0,0
+1781011303963,13,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011303970,15,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17532,463,5,5,http://localhost:8080/cart,6,0,0
+1781011303970,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011303976,9,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17437,173,5,5,http://localhost:8080/cart,9,0,0
+1781011304122,20,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6977,522,5,5,http://localhost:8080/cart/checkout,20,0,0
+1781011304140,15,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6981,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011304277,54,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,54,0,0
+1781011304354,12,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8264,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011304741,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17451,173,5,5,http://localhost:8080/cart,10,0,0
+1781011304653,108,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17568,463,5,5,http://localhost:8080/cart,99,0,0
+1781011304653,99,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,99,0,0
+1781011304752,9,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17473,173,5,5,http://localhost:8080/cart,9,0,0
+1781011304823,14,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011304933,17,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17534,463,5,5,http://localhost:8080/cart,7,0,0
+1781011304933,7,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011304940,10,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17439,173,5,5,http://localhost:8080/cart,10,0,0
+1781011305164,14,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011305193,9,GET Cart,200,OK,User purchase flow 1-2,text,true,,17427,173,5,5,http://localhost:8080/cart,9,0,0
+1781011305345,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8262,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011305368,14,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6927,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011305477,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17453,173,5,5,http://localhost:8080/cart,11,0,0
+1781011305562,17,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6975,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011305632,13,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011305730,15,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17512,463,5,5,http://localhost:8080/cart,5,0,0
+1781011305730,5,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011305736,9,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17417,173,5,5,http://localhost:8080/cart,9,0,0
+1781011305978,41,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8282,187,5,5,http://localhost:8080/product/OLJCESPC7Z,41,0,0
+1781011305985,34,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6939,522,5,5,http://localhost:8080/cart/checkout,34,0,0
+1781011306140,205,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,205,0,0
+1781011306190,159,GET Cart,200,OK,User purchase flow 1-4,text,true,,17449,173,5,5,http://localhost:8080/cart,159,0,0
+1781011306536,12,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8300,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011306654,13,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17552,463,5,5,http://localhost:8080/cart,5,0,0
+1781011306654,5,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011306659,8,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17457,173,5,5,http://localhost:8080/cart,8,0,0
+1781011306714,13,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011307013,11,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011307024,14,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6935,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011307131,32,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17554,463,5,5,http://localhost:8080/cart,7,0,0
+1781011307131,7,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011307138,25,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17459,173,5,5,http://localhost:8080/cart,24,0,0
+1781011307169,11,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8250,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011307321,17,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17560,463,5,5,http://localhost:8080/cart,5,0,0
+1781011307321,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011307326,12,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17465,173,5,5,http://localhost:8080/cart,12,0,0
+1781011307329,11,GET Cart,200,OK,User purchase flow 1-1,text,true,,17443,173,5,5,http://localhost:8080/cart,11,0,0
+1781011307609,33,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,33,0,0
+1781011307775,13,GET Cart,200,OK,User purchase flow 1-2,text,true,,17455,173,5,5,http://localhost:8080/cart,13,0,0
+1781011307823,12,GET Cart,200,OK,User purchase flow 1-3,text,true,,17423,173,5,5,http://localhost:8080/cart,12,0,0
+1781011307886,24,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6969,522,5,5,http://localhost:8080/cart/checkout,24,0,0
+1781011307960,21,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6939,522,5,5,http://localhost:8080/cart/checkout,21,0,0
+1781011307972,21,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17548,463,5,5,http://localhost:8080/cart,8,0,0
+1781011307972,8,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011307980,13,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17453,173,5,5,http://localhost:8080/cart,13,0,0
+1781011308098,102,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,102,0,0
+1781011308300,15,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6941,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011308398,9,GET Cart,200,OK,User purchase flow 1-5,text,true,,17439,173,5,5,http://localhost:8080/cart,9,0,0
+1781011308455,14,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011308516,14,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011308632,15,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011308749,15,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17548,463,5,5,http://localhost:8080/cart,6,0,0
+1781011308749,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011308755,9,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17453,173,5,5,http://localhost:8080/cart,9,0,0
+1781011308812,12,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011308887,17,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17526,463,5,5,http://localhost:8080/cart,6,0,0
+1781011308887,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011308893,11,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17431,173,5,5,http://localhost:8080/cart,10,0,0
+1781011308922,18,POST Checkout,200,OK,User purchase flow 1-5,text,true,,7003,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011308986,14,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011309060,14,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8312,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011309302,34,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,34,0,0
+1781011309337,14,GET Cart,200,OK,User purchase flow 1-4,text,true,,17459,173,5,5,http://localhost:8080/cart,14,0,0
+1781011309439,18,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17534,463,5,5,http://localhost:8080/cart,7,0,0
+1781011309439,7,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011309446,11,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17439,173,5,5,http://localhost:8080/cart,11,0,0
+1781011309470,9,GET Cart,200,OK,User purchase flow 1-1,text,true,,17453,173,5,5,http://localhost:8080/cart,9,0,0
+1781011309633,12,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8248,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011309840,21,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6945,522,5,5,http://localhost:8080/cart/checkout,21,0,0
+1781011309864,21,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17512,463,5,5,http://localhost:8080/cart,8,0,0
+1781011309864,8,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011309872,13,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17417,173,5,5,http://localhost:8080/cart,13,0,0
+1781011309919,12,GET Cart,200,OK,User purchase flow 1-3,text,true,,17425,173,5,5,http://localhost:8080/cart,12,0,0
+1781011310063,37,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17542,463,5,5,http://localhost:8080/cart,6,0,0
+1781011310063,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011310069,31,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17447,173,5,5,http://localhost:8080/cart,31,0,0
+1781011310117,14,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6943,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011310309,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011310335,14,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6935,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011310589,23,GET Cart,200,OK,User purchase flow 1-2,text,true,,17399,173,5,5,http://localhost:8080/cart,23,0,0
+1781011310584,28,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,28,0,0
+1781011310625,9,GET Cart,200,OK,User purchase flow 1-5,text,true,,17449,173,5,5,http://localhost:8080/cart,9,0,0
+1781011310689,11,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,11,0,0
+1781011311036,17,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6941,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011311137,34,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8292,187,5,5,http://localhost:8080/product/OLJCESPC7Z,34,0,0
+1781011311249,28,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,28,0,0
+1781011311526,11,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8264,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011311669,16,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17524,463,5,5,http://localhost:8080/cart,7,0,0
+1781011311669,7,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011311676,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17429,173,5,5,http://localhost:8080/cart,9,0,0
+1781011311698,14,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6993,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011311972,21,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17560,463,5,5,http://localhost:8080/cart,13,0,0
+1781011311972,13,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,13,0,0
+1781011311985,8,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17465,173,5,5,http://localhost:8080/cart,8,0,0
+1781011312087,30,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,30,0,0
+1781011312225,22,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17516,463,5,5,http://localhost:8080/cart,6,0,0
+1781011312225,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011312231,16,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17421,173,5,5,http://localhost:8080/cart,16,0,0
+1781011312320,13,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011312414,11,GET Cart,200,OK,User purchase flow 1-1,text,true,,17431,173,5,5,http://localhost:8080/cart,10,0,0
+1781011312446,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8246,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011312509,11,GET Cart,200,OK,User purchase flow 1-4,text,true,,17447,173,5,5,http://localhost:8080/cart,11,0,0
+1781011312660,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17429,173,5,5,http://localhost:8080/cart,10,0,0
+1781011313047,82,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8284,187,5,5,http://localhost:8080/product/OLJCESPC7Z,82,0,0
+1781011313079,56,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6969,522,5,5,http://localhost:8080/cart/checkout,56,0,0
+1781011313028,108,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6969,522,5,5,http://localhost:8080/cart/checkout,107,0,0
+1781011313210,16,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6985,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011313230,31,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,31,0,0
+1781011313290,14,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17516,463,5,5,http://localhost:8080/cart,5,0,0
+1781011313290,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011313295,9,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17421,173,5,5,http://localhost:8080/cart,9,0,0
+1781011313382,9,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8278,187,5,5,http://localhost:8080/product/OLJCESPC7Z,9,0,0
+1781011313526,12,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011313851,17,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17534,463,5,5,http://localhost:8080/cart,6,0,0
+1781011313851,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011313857,11,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17439,173,5,5,http://localhost:8080/cart,11,0,0
+1781011313860,10,GET Cart,200,OK,User purchase flow 1-2,text,true,,17421,173,5,5,http://localhost:8080/cart,10,0,0
+1781011313910,14,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011314009,15,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17568,463,5,5,http://localhost:8080/cart,6,0,0
+1781011314009,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011314015,9,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17473,173,5,5,http://localhost:8080/cart,9,0,0
+1781011314128,11,GET Cart,200,OK,User purchase flow 1-4,text,true,,17461,173,5,5,http://localhost:8080/cart,11,0,0
+1781011314140,10,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8262,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011314237,11,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011314593,27,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6943,522,5,5,http://localhost:8080/cart/checkout,27,0,0
+1781011314716,17,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17530,463,5,5,http://localhost:8080/cart,5,0,0
+1781011314716,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011314721,12,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17435,173,5,5,http://localhost:8080/cart,12,0,0
+1781011314746,15,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6953,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011314778,16,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17532,463,5,5,http://localhost:8080/cart,6,0,0
+1781011314778,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011314785,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17437,173,5,5,http://localhost:8080/cart,9,0,0
+1781011314830,11,GET Cart,200,OK,User purchase flow 1-5,text,true,,17445,173,5,5,http://localhost:8080/cart,11,0,0
+1781011314859,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17473,173,5,5,http://localhost:8080/cart,9,0,0
+1781011314873,10,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,10,0,0
+1781011314984,18,POST Checkout,200,OK,User purchase flow 1-3,text,true,,7003,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011315191,15,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011315199,11,GET Cart,200,OK,User purchase flow 1-1,text,true,,17437,173,5,5,http://localhost:8080/cart,11,0,0
+1781011315308,16,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8258,187,5,5,http://localhost:8080/product/OLJCESPC7Z,16,0,0
+1781011315377,43,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,43,0,0
+1781011315488,17,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6947,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011315560,342,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8300,187,5,5,http://localhost:8080/product/OLJCESPC7Z,342,0,0
+1781011315711,199,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8290,187,5,5,http://localhost:8080/product/OLJCESPC7Z,199,0,0
+1781011315796,116,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,116,0,0
+1781011315678,307,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17512,463,5,5,http://localhost:8080/cart,224,0,0
+1781011315678,224,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,224,0,0
+1781011315902,83,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17417,173,5,5,http://localhost:8080/cart,83,0,0
+1781011315862,124,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6991,522,5,5,http://localhost:8080/cart/checkout,124,0,0
+1781011316147,11,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8272,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011316163,9,GET Cart,200,OK,User purchase flow 1-4,text,true,,17419,173,5,5,http://localhost:8080/cart,9,0,0
+1781011316287,222,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17516,463,5,5,http://localhost:8080/cart,5,0,0
+1781011316287,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011316292,217,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17421,173,5,5,http://localhost:8080/cart,217,0,0
+1781011316372,163,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,163,0,0
+1781011316430,116,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17562,463,5,5,http://localhost:8080/cart,104,0,0
+1781011316430,104,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,104,0,0
+1781011316534,12,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17467,173,5,5,http://localhost:8080/cart,12,0,0
+1781011316603,16,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6979,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011316703,21,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17524,463,5,5,http://localhost:8080/cart,6,0,0
+1781011316703,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011316709,15,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17429,173,5,5,http://localhost:8080/cart,14,0,0
+1781011316801,9,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8250,187,5,5,http://localhost:8080/product/OLJCESPC7Z,9,0,0
+1781011316986,98,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,98,0,0
+1781011317091,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17455,173,5,5,http://localhost:8080/cart,10,0,0
+1781011317325,15,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17506,463,5,5,http://localhost:8080/cart,6,0,0
+1781011317325,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011317331,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17411,173,5,5,http://localhost:8080/cart,9,0,0
+1781011317363,10,GET Cart,200,OK,User purchase flow 1-2,text,true,,17449,173,5,5,http://localhost:8080/cart,10,0,0
+1781011317379,14,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6981,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011317654,16,GET Cart,200,OK,User purchase flow 1-5,text,true,,17447,173,5,5,http://localhost:8080/cart,16,0,0
+1781011317668,24,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6973,522,5,5,http://localhost:8080/cart/checkout,24,0,0
+1781011317733,15,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8314,187,5,5,http://localhost:8080/product/OLJCESPC7Z,15,0,0
+1781011317734,31,GET Cart,200,OK,User purchase flow 1-1,text,true,,17437,173,5,5,http://localhost:8080/cart,31,0,4
+1781011318009,38,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,38,0,0
+1781011318083,18,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6939,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011318123,15,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6945,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011318420,23,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17556,463,5,5,http://localhost:8080/cart,7,0,0
+1781011318420,7,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011318427,16,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17461,173,5,5,http://localhost:8080/cart,14,0,0
+1781011318507,14,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011318650,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011318748,10,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011318876,11,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8272,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011319066,107,GET Cart,200,OK,User purchase flow 1-4,text,true,,17475,173,5,5,http://localhost:8080/cart,106,0,0
+1781011319096,81,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,81,0,0
+1781011319051,128,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,128,0,0
+1781011319276,113,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17520,463,5,5,http://localhost:8080/cart,30,0,0
+1781011319276,30,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,30,0,0
+1781011319307,82,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17425,173,5,5,http://localhost:8080/cart,82,0,0
+1781011319528,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17419,173,5,5,http://localhost:8080/cart,9,0,0
+1781011319662,36,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17534,463,5,5,http://localhost:8080/cart,28,0,1
+1781011319662,28,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,28,0,1
+1781011319690,8,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17439,173,5,5,http://localhost:8080/cart,8,0,0
+1781011319721,14,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17536,463,5,5,http://localhost:8080/cart,6,0,0
+1781011319721,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011319727,8,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17441,173,5,5,http://localhost:8080/cart,8,0,0
+1781011319875,16,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6945,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011319882,11,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011320249,11,GET Cart,200,OK,User purchase flow 1-2,text,true,,17463,173,5,5,http://localhost:8080/cart,10,0,0
+1781011320288,14,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6985,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011320407,12,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011320492,9,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8254,187,5,5,http://localhost:8080/product/OLJCESPC7Z,9,0,0
+1781011320512,15,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17492,463,5,5,http://localhost:8080/cart,6,0,0
+1781011320512,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011320518,9,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17397,173,5,5,http://localhost:8080/cart,9,0,0
+1781011320763,16,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6953,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011320790,14,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011320842,15,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17492,463,5,5,http://localhost:8080/cart,6,0,0
+1781011320842,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011320848,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17397,173,5,5,http://localhost:8080/cart,9,0,0
+1781011320946,21,GET Cart,200,OK,User purchase flow 1-3,text,true,,17425,173,5,5,http://localhost:8080/cart,21,0,1
+1781011321001,14,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011321005,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17449,173,5,5,http://localhost:8080/cart,10,0,0
+1781011321284,18,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6991,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011321412,13,GET Cart,200,OK,User purchase flow 1-1,text,true,,17421,173,5,5,http://localhost:8080/cart,13,0,0
+1781011321450,15,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6941,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011321467,12,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011321484,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8296,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011321496,10,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8294,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011321599,40,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17528,463,5,5,http://localhost:8080/cart,31,0,0
+1781011321599,31,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,31,0,0
+1781011321630,9,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17433,173,5,5,http://localhost:8080/cart,9,0,0
+1781011321616,78,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6983,522,5,5,http://localhost:8080/cart/checkout,78,0,0
+1781011321826,17,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17552,463,5,5,http://localhost:8080/cart,6,0,0
+1781011321826,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011321832,11,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17457,173,5,5,http://localhost:8080/cart,11,0,0
+1781011321987,12,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8292,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011322103,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011322105,12,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011322402,19,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17528,463,5,5,http://localhost:8080/cart,6,0,0
+1781011322402,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011322409,12,GET Cart,200,OK,User purchase flow 1-4,text,true,,17433,173,5,5,http://localhost:8080/cart,12,0,0
+1781011322408,13,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17433,173,5,5,http://localhost:8080/cart,13,0,0
+1781011322479,9,GET Cart,200,OK,User purchase flow 1-2,text,true,,17441,173,5,5,http://localhost:8080/cart,9,0,0
+1781011322507,11,GET Cart,200,OK,User purchase flow 1-5,text,true,,17451,173,5,5,http://localhost:8080/cart,10,0,0
+1781011322551,11,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8276,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011322713,15,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6971,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011322885,16,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17528,463,5,5,http://localhost:8080/cart,6,0,0
+1781011322885,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011322891,10,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17433,173,5,5,http://localhost:8080/cart,10,0,0
+1781011322946,11,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011322938,26,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,26,0,0
+1781011323065,29,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6939,522,5,5,http://localhost:8080/cart/checkout,29,0,0
+1781011323123,24,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6985,522,5,5,http://localhost:8080/cart/checkout,24,0,1
+1781011323495,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17451,173,5,5,http://localhost:8080/cart,11,0,0
+1781011323531,16,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17520,463,5,5,http://localhost:8080/cart,6,0,0
+1781011323531,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011323537,10,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17425,173,5,5,http://localhost:8080/cart,10,0,0
+1781011323703,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8278,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011323800,13,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011323929,13,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011323942,50,GET Cart,200,OK,User purchase flow 1-1,text,true,,17441,173,5,5,http://localhost:8080/cart,50,0,0
+1781011324017,14,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17546,463,5,5,http://localhost:8080/cart,5,0,0
+1781011324017,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011324022,9,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17451,173,5,5,http://localhost:8080/cart,9,0,0
+1781011324065,21,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8242,187,5,5,http://localhost:8080/product/OLJCESPC7Z,21,0,0
+1781011324145,9,GET Cart,200,OK,User purchase flow 1-2,text,true,,17455,173,5,5,http://localhost:8080/cart,9,0,0
+1781011324160,10,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8260,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011324205,15,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6969,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011324272,17,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6943,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011324324,16,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6939,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011324805,16,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17526,463,5,5,http://localhost:8080/cart,7,0,0
+1781011324805,7,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011324812,9,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17431,173,5,5,http://localhost:8080/cart,9,0,0
+1781011324849,33,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,33,0,0
+1781011324957,15,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17506,463,5,5,http://localhost:8080/cart,6,0,0
+1781011324957,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011324963,9,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17411,173,5,5,http://localhost:8080/cart,9,0,0
+1781011325037,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011325128,75,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,75,0,0
+1781011325417,13,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011325452,23,GET Cart,200,OK,User purchase flow 1-5,text,true,,17431,173,5,5,http://localhost:8080/cart,23,0,1
+1781011325488,21,GET Cart,200,OK,User purchase flow 1-4,text,true,,17451,173,5,5,http://localhost:8080/cart,21,0,0
+1781011325530,21,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8272,187,5,5,http://localhost:8080/product/OLJCESPC7Z,21,0,0
+1781011325792,21,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17514,463,5,5,http://localhost:8080/cart,11,0,0
+1781011325792,11,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,11,0,0
+1781011325803,10,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17419,173,5,5,http://localhost:8080/cart,10,0,0
+1781011325958,30,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6957,522,5,5,http://localhost:8080/cart/checkout,30,0,0
+1781011325977,12,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8276,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011326155,11,GET Cart,200,OK,User purchase flow 1-1,text,true,,17431,173,5,5,http://localhost:8080/cart,11,0,0
+1781011326159,15,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6963,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011326169,17,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17514,463,5,5,http://localhost:8080/cart,5,0,0
+1781011326169,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011326174,12,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17419,173,5,5,http://localhost:8080/cart,12,0,0
+1781011326216,13,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011326376,26,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6997,522,5,5,http://localhost:8080/cart/checkout,26,0,0
+1781011326642,10,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8254,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011326728,31,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17520,463,5,5,http://localhost:8080/cart,22,0,0
+1781011326728,22,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,22,0,0
+1781011326750,9,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17425,173,5,5,http://localhost:8080/cart,9,0,0
+1781011326864,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17415,173,5,5,http://localhost:8080/cart,10,0,0
+1781011326897,12,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011327216,17,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17554,463,5,5,http://localhost:8080/cart,6,0,0
+1781011327216,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011327223,10,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17459,173,5,5,http://localhost:8080/cart,9,0,0
+1781011327342,36,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6967,522,5,5,http://localhost:8080/cart/checkout,36,0,0
+1781011327410,26,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,26,0,0
+1781011327511,16,GET Cart,200,OK,User purchase flow 1-2,text,true,,17457,173,5,5,http://localhost:8080/cart,16,0,0
+1781011327662,15,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8250,187,5,5,http://localhost:8080/product/OLJCESPC7Z,15,0,0
+1781011327815,14,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8248,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011327839,17,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,17,0,0
+1781011327892,14,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011327996,12,GET Cart,200,OK,User purchase flow 1-5,text,true,,17431,173,5,5,http://localhost:8080/cart,12,0,0
+1781011328195,15,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17544,463,5,5,http://localhost:8080/cart,7,0,0
+1781011328195,7,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011328202,8,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17449,173,5,5,http://localhost:8080/cart,8,0,0
+1781011328425,21,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17548,463,5,5,http://localhost:8080/cart,9,0,0
+1781011328425,9,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,9,0,0
+1781011328434,12,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17453,173,5,5,http://localhost:8080/cart,11,0,0
+1781011328107,562,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6953,522,5,5,http://localhost:8080/cart/checkout,562,0,0
+1781011328686,14,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17502,463,5,5,http://localhost:8080/cart,5,0,0
+1781011328686,5,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011328691,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17407,173,5,5,http://localhost:8080/cart,9,0,0
+1781011328107,678,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6955,522,5,5,http://localhost:8080/cart/checkout,678,0,0
+1781011328777,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17405,173,5,5,http://localhost:8080/cart,10,0,0
+1781011328867,9,GET Cart,200,OK,User purchase flow 1-4,text,true,,17453,173,5,5,http://localhost:8080/cart,9,0,0
+1781011329033,38,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,38,0,0
+1781011329133,11,GET Cart,200,OK,User purchase flow 1-1,text,true,,17419,173,5,5,http://localhost:8080/cart,11,0,0
+1781011329223,18,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6957,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011329257,15,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011329460,12,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011329476,10,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8250,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011329529,16,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6981,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011329545,10,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8308,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011329610,15,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6963,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011329820,10,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8302,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011329867,16,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17544,463,5,5,http://localhost:8080/cart,7,0,0
+1781011329867,7,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011329874,9,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17449,173,5,5,http://localhost:8080/cart,9,0,0
+1781011330000,14,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011329986,38,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,38,0,0
+1781011330107,114,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17570,463,5,5,http://localhost:8080/cart,7,0,0
+1781011330107,7,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011330114,107,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17475,173,5,5,http://localhost:8080/cart,107,0,0
+1781011330287,17,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17544,463,5,5,http://localhost:8080/cart,7,0,0
+1781011330287,7,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011330294,10,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17449,173,5,5,http://localhost:8080/cart,10,0,0
+1781011330433,10,GET Cart,200,OK,User purchase flow 1-2,text,true,,17453,173,5,5,http://localhost:8080/cart,10,0,0
+1781011330583,11,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8242,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011330657,10,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8242,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011330816,15,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6935,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011330919,17,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17510,463,5,5,http://localhost:8080/cart,6,0,0
+1781011330919,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011330926,10,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17415,173,5,5,http://localhost:8080/cart,10,0,0
+1781011331062,19,GET Cart,200,OK,User purchase flow 1-5,text,true,,17453,173,5,5,http://localhost:8080/cart,19,0,0
+1781011331073,17,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17528,463,5,5,http://localhost:8080/cart,8,0,0
+1781011331073,8,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011331081,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17433,173,5,5,http://localhost:8080/cart,9,0,0
+1781011331365,14,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011331416,18,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6949,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011331430,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17465,173,5,5,http://localhost:8080/cart,11,0,0
+1781011331433,12,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8268,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011331709,9,GET Cart,200,OK,User purchase flow 1-4,text,true,,17425,173,5,5,http://localhost:8080/cart,9,0,0
+1781011331769,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17415,173,5,5,http://localhost:8080/cart,10,0,0
+1781011332061,14,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17538,463,5,5,http://localhost:8080/cart,6,0,0
+1781011332061,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011332067,8,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17443,173,5,5,http://localhost:8080/cart,8,0,0
+1781011332353,14,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6949,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011332411,17,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6945,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011332541,10,GET Cart,200,OK,User purchase flow 1-2,text,true,,17449,173,5,5,http://localhost:8080/cart,10,0,0
+1781011332556,34,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6943,522,5,5,http://localhost:8080/cart/checkout,34,0,0
+1781011332595,32,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,32,0,0
+1781011332806,12,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011333135,13,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011333171,10,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011333262,243,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,243,0,0
+1781011333424,86,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8264,187,5,5,http://localhost:8080/product/OLJCESPC7Z,86,0,0
+1781011333237,278,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6951,522,5,5,http://localhost:8080/cart/checkout,278,0,0
+1781011333588,34,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17506,463,5,5,http://localhost:8080/cart,22,0,0
+1781011333588,22,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,22,0,0
+1781011333610,12,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17411,173,5,5,http://localhost:8080/cart,11,0,0
+1781011333626,10,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011333836,10,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8312,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011334118,15,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17512,463,5,5,http://localhost:8080/cart,6,0,0
+1781011334118,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011334124,9,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17417,173,5,5,http://localhost:8080/cart,9,0,0
+1781011334161,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17449,173,5,5,http://localhost:8080/cart,10,0,0
+1781011334389,15,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17530,463,5,5,http://localhost:8080/cart,7,0,0
+1781011334389,7,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011334396,8,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17435,173,5,5,http://localhost:8080/cart,8,0,0
+1781011334428,13,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17532,463,5,5,http://localhost:8080/cart,5,0,0
+1781011334428,5,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011334433,8,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17437,173,5,5,http://localhost:8080/cart,8,0,0
+1781011334432,12,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011334771,15,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6993,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011334857,31,GET Cart,200,OK,User purchase flow 1-4,text,true,,17423,173,5,5,http://localhost:8080/cart,11,0,0
+1781011334992,29,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,29,0,0
+1781011335059,12,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011335089,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17433,173,5,5,http://localhost:8080/cart,11,0,0
+1781011335154,15,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6973,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011335192,9,GET Cart,200,OK,User purchase flow 1-1,text,true,,17435,173,5,5,http://localhost:8080/cart,9,0,0
+1781011335432,11,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011335534,14,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17492,463,5,5,http://localhost:8080/cart,6,0,0
+1781011335534,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011335540,8,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17397,173,5,5,http://localhost:8080/cart,8,0,0
+1781011335709,66,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,66,0,0
+1781011335650,129,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6977,522,5,5,http://localhost:8080/cart/checkout,129,0,0
+1781011335806,18,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6939,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011336115,11,GET Cart,200,OK,User purchase flow 1-2,text,true,,17429,173,5,5,http://localhost:8080/cart,11,0,0
+1781011336117,15,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17562,463,5,5,http://localhost:8080/cart,7,0,0
+1781011336117,7,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011336124,8,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17467,173,5,5,http://localhost:8080/cart,8,0,0
+1781011336179,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17405,173,5,5,http://localhost:8080/cart,10,0,0
+1781011336418,16,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6955,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011336441,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011336480,13,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011336614,39,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8254,187,5,5,http://localhost:8080/product/OLJCESPC7Z,38,0,0
+1781011336819,15,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6981,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011336905,14,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17560,463,5,5,http://localhost:8080/cart,5,0,0
+1781011336905,5,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011336910,9,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17465,173,5,5,http://localhost:8080/cart,8,0,0
+1781011337048,13,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011337137,258,GET Cart,200,OK,User purchase flow 1-4,text,true,,17423,173,5,5,http://localhost:8080/cart,258,0,0
+1781011337161,237,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8256,187,5,5,http://localhost:8080/product/OLJCESPC7Z,237,0,0
+1781011337184,214,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,214,0,0
+1781011337380,48,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,48,0,0
+1781011337657,25,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8286,187,5,5,http://localhost:8080/product/OLJCESPC7Z,25,0,0
+1781011337693,33,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17524,463,5,5,http://localhost:8080/cart,12,0,0
+1781011337693,12,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,12,0,0
+1781011337705,21,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17429,173,5,5,http://localhost:8080/cart,19,0,0
+1781011337787,17,GET Cart,200,OK,User purchase flow 1-3,text,true,,17401,173,5,5,http://localhost:8080/cart,17,0,0
+1781011337918,19,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17552,463,5,5,http://localhost:8080/cart,7,0,0
+1781011337918,7,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011337926,11,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17457,173,5,5,http://localhost:8080/cart,11,0,0
+1781011338003,23,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6969,522,5,5,http://localhost:8080/cart/checkout,23,0,0
+1781011338087,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8316,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011338312,15,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6979,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011338351,16,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17512,463,5,5,http://localhost:8080/cart,6,0,0
+1781011338351,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011338357,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17417,173,5,5,http://localhost:8080/cart,10,0,0
+1781011338490,14,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011338526,22,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17554,463,5,5,http://localhost:8080/cart,8,0,0
+1781011338526,8,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011338534,14,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17459,173,5,5,http://localhost:8080/cart,14,0,0
+1781011338726,12,GET Cart,200,OK,User purchase flow 1-2,text,true,,17417,173,5,5,http://localhost:8080/cart,12,0,0
+1781011338741,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17443,173,5,5,http://localhost:8080/cart,10,0,0
+1781011338759,13,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011338918,14,GET Cart,200,OK,User purchase flow 1-5,text,true,,17463,173,5,5,http://localhost:8080/cart,14,0,0
+1781011338963,17,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,17,0,0
+1781011338985,94,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,94,0,0
+1781011339275,18,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6987,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011339280,18,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6965,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011339400,17,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,17,0,0
+1781011339444,19,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17516,463,5,5,http://localhost:8080/cart,7,0,0
+1781011339444,7,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011339451,12,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17421,173,5,5,http://localhost:8080/cart,11,0,0
+1781011339697,143,GET Cart,200,OK,User purchase flow 1-4,text,true,,17439,173,5,5,http://localhost:8080/cart,143,0,0
+1781011339756,87,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,87,0,0
+1781011339851,13,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8254,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011339850,20,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17538,463,5,5,http://localhost:8080/cart,6,0,0
+1781011339850,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011339856,14,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17443,173,5,5,http://localhost:8080/cart,13,0,0
+1781011339893,45,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6935,522,5,5,http://localhost:8080/cart/checkout,45,0,0
+1781011340175,15,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17542,463,5,5,http://localhost:8080/cart,6,0,0
+1781011340175,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011340181,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17447,173,5,5,http://localhost:8080/cart,9,0,0
+1781011340292,14,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6949,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011340306,9,GET Cart,200,OK,User purchase flow 1-3,text,true,,17425,173,5,5,http://localhost:8080/cart,9,0,0
+1781011340324,14,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6933,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011340443,9,GET Cart,200,OK,User purchase flow 1-1,text,true,,17465,173,5,5,http://localhost:8080/cart,9,0,0
+1781011340461,25,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,25,0,0
+1781011340666,15,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6955,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011340703,14,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011340777,10,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011340845,50,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,50,0,0
+1781011340904,10,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8260,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011341320,12,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011341343,15,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17562,463,5,5,http://localhost:8080/cart,5,0,0
+1781011341343,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011341348,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17467,173,5,5,http://localhost:8080/cart,10,0,0
+1781011341465,25,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8278,187,5,5,http://localhost:8080/product/OLJCESPC7Z,25,0,0
+1781011341553,15,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17534,463,5,5,http://localhost:8080/cart,6,0,0
+1781011341553,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011341559,9,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17439,173,5,5,http://localhost:8080/cart,9,0,0
+1781011341647,10,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8262,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011341760,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8298,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011341785,15,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17556,463,5,5,http://localhost:8080/cart,5,0,0
+1781011341785,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011341790,10,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17461,173,5,5,http://localhost:8080/cart,10,0,0
+1781011341845,10,GET Cart,200,OK,User purchase flow 1-2,text,true,,17467,173,5,5,http://localhost:8080/cart,10,0,0
+1781011342046,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17471,173,5,5,http://localhost:8080/cart,10,0,0
+1781011342259,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17413,173,5,5,http://localhost:8080/cart,10,0,0
+1781011342422,16,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17538,463,5,5,http://localhost:8080/cart,6,0,0
+1781011342422,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011342428,10,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17443,173,5,5,http://localhost:8080/cart,9,0,0
+1781011342436,15,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17528,463,5,5,http://localhost:8080/cart,6,0,0
+1781011342436,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011342442,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17433,173,5,5,http://localhost:8080/cart,9,0,0
+1781011342567,16,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6975,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011342665,20,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6953,522,5,5,http://localhost:8080/cart/checkout,20,0,0
+1781011342722,104,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,104,0,0
+1781011342934,18,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6935,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011343060,32,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,32,0,0
+1781011343092,9,GET Cart,200,OK,User purchase flow 1-4,text,true,,17455,173,5,5,http://localhost:8080/cart,9,0,0
+1781011343238,22,GET Cart,200,OK,User purchase flow 1-1,text,true,,17399,173,5,5,http://localhost:8080/cart,22,0,0
+1781011343243,18,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8286,187,5,5,http://localhost:8080/product/OLJCESPC7Z,18,0,0
+1781011343398,15,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011343646,12,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011343824,22,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,22,0,0
+1781011343857,16,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17520,463,5,5,http://localhost:8080/cart,6,0,0
+1781011343857,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011343864,9,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17425,173,5,5,http://localhost:8080/cart,9,0,0
+1781011343893,14,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17514,463,5,5,http://localhost:8080/cart,5,0,0
+1781011343893,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011343899,8,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17419,173,5,5,http://localhost:8080/cart,8,0,0
+1781011343953,15,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17566,463,5,5,http://localhost:8080/cart,5,0,0
+1781011343953,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011343958,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17471,173,5,5,http://localhost:8080/cart,10,0,0
+1781011344085,16,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6923,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011344121,11,GET Cart,200,OK,User purchase flow 1-5,text,true,,17397,173,5,5,http://localhost:8080/cart,11,0,0
+1781011344134,15,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6975,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011344339,20,GET Cart,200,OK,User purchase flow 1-3,text,true,,17439,173,5,5,http://localhost:8080/cart,19,0,0
+1781011344409,16,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6923,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011344728,27,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6983,522,5,5,http://localhost:8080/cart/checkout,27,0,0
+1781011344736,23,GET Cart,200,OK,User purchase flow 1-2,text,true,,17431,173,5,5,http://localhost:8080/cart,23,0,0
+1781011344736,24,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,24,0,0
+1781011344850,33,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,33,0,0
+1781011344985,11,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,11,0,0
+1781011345156,25,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,25,0,0
+1781011345168,13,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8264,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011345550,33,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,33,0,0
+1781011345642,28,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6929,522,5,5,http://localhost:8080/cart/checkout,28,0,0
+1781011345671,31,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17526,463,5,5,http://localhost:8080/cart,11,0,0
+1781011345671,11,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,11,0,0
+1781011345682,20,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17431,173,5,5,http://localhost:8080/cart,20,0,0
+1781011345816,26,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8272,187,5,5,http://localhost:8080/product/OLJCESPC7Z,26,0,0
+1781011345888,100,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17512,463,5,5,http://localhost:8080/cart,5,0,0
+1781011345888,5,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011345893,95,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17417,173,5,5,http://localhost:8080/cart,95,0,0
+1781011346005,16,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17522,463,5,5,http://localhost:8080/cart,6,0,0
+1781011346005,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011346011,10,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17427,173,5,5,http://localhost:8080/cart,10,0,0
+1781011346203,10,GET Cart,200,OK,User purchase flow 1-4,text,true,,17435,173,5,5,http://localhost:8080/cart,10,0,0
+1781011346406,10,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8312,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011346423,11,GET Cart,200,OK,User purchase flow 1-1,text,true,,17399,173,5,5,http://localhost:8080/cart,10,0,0
+1781011346668,16,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6959,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011346717,12,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011346918,16,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6943,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011347176,17,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8264,187,5,5,http://localhost:8080/product/OLJCESPC7Z,17,0,0
+1781011347079,114,GET Cart,200,OK,User purchase flow 1-5,text,true,,17459,173,5,5,http://localhost:8080/cart,114,0,0
+1781011347067,129,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17550,463,5,5,http://localhost:8080/cart,121,0,0
+1781011347067,121,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,121,0,0
+1781011347188,8,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17455,173,5,5,http://localhost:8080/cart,8,0,0
+1781011347472,29,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,28,0,0
+1781011347607,18,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,18,0,0
+1781011347668,12,GET Cart,200,OK,User purchase flow 1-3,text,true,,17431,173,5,5,http://localhost:8080/cart,12,0,0
+1781011347719,20,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17544,463,5,5,http://localhost:8080/cart,7,0,0
+1781011347719,7,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011347726,13,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17449,173,5,5,http://localhost:8080/cart,13,0,0
+1781011347762,30,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,29,0,0
+1781011347804,54,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6967,522,5,5,http://localhost:8080/cart/checkout,54,0,0
+1781011347924,14,GET Cart,200,OK,User purchase flow 1-2,text,true,,17397,173,5,5,http://localhost:8080/cart,14,0,0
+1781011348018,24,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6977,522,5,5,http://localhost:8080/cart/checkout,24,0,0
+1781011348076,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8278,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011348337,64,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,64,0,0
+1781011348352,61,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6975,522,5,5,http://localhost:8080/cart/checkout,61,0,0
+1781011348431,12,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011348675,170,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17524,463,5,5,http://localhost:8080/cart,9,0,0
+1781011348675,9,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,9,0,0
+1781011348684,161,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17429,173,5,5,http://localhost:8080/cart,161,0,0
+1781011348788,92,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17520,463,5,5,http://localhost:8080/cart,46,0,0
+1781011348788,46,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,46,0,0
+1781011348834,46,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17425,173,5,5,http://localhost:8080/cart,46,0,0
+1781011348894,62,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,62,0,0
+1781011349118,11,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8304,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011349192,28,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,28,0,0
+1781011349312,29,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17522,463,5,5,http://localhost:8080/cart,6,0,0
+1781011349312,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011349318,23,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17427,173,5,5,http://localhost:8080/cart,23,0,0
+1781011349324,17,GET Cart,200,OK,User purchase flow 1-1,text,true,,17435,173,5,5,http://localhost:8080/cart,17,0,0
+1781011349346,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17449,173,5,5,http://localhost:8080/cart,9,0,0
+1781011349384,11,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8268,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011349486,9,GET Cart,200,OK,User purchase flow 1-4,text,true,,17425,173,5,5,http://localhost:8080/cart,9,0,0
+1781011349747,272,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17492,463,5,5,http://localhost:8080/cart,6,0,0
+1781011349747,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011349753,266,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17397,173,5,5,http://localhost:8080/cart,265,0,0
+1781011349782,241,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6995,522,5,5,http://localhost:8080/cart/checkout,241,0,0
+1781011350350,15,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6961,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011350417,15,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17508,463,5,5,http://localhost:8080/cart,5,0,0
+1781011350417,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011350422,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17413,173,5,5,http://localhost:8080/cart,10,0,0
+1781011350498,19,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6967,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011350514,11,GET Cart,200,OK,User purchase flow 1-2,text,true,,17427,173,5,5,http://localhost:8080/cart,11,0,0
+1781011350584,37,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,37,0,0
+1781011350697,12,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011350886,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17417,173,5,5,http://localhost:8080/cart,11,0,0
+1781011350973,12,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8276,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011351009,14,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6979,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011351195,12,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011351589,14,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011351643,12,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8250,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011351684,18,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6951,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011351690,17,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17494,463,5,5,http://localhost:8080/cart,6,0,0
+1781011351690,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011351696,11,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17399,173,5,5,http://localhost:8080/cart,11,0,0
+1781011351868,10,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8286,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011351994,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17413,173,5,5,http://localhost:8080/cart,10,0,0
+1781011352324,15,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17550,463,5,5,http://localhost:8080/cart,5,0,0
+1781011352324,5,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011352329,10,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17455,173,5,5,http://localhost:8080/cart,10,0,0
+1781011352416,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011352491,15,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6965,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011352572,49,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,49,0,0
+1781011352653,12,GET Cart,200,OK,User purchase flow 1-4,text,true,,17441,173,5,5,http://localhost:8080/cart,12,0,0
+1781011352678,21,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17502,463,5,5,http://localhost:8080/cart,7,0,0
+1781011352678,7,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011352685,14,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17407,173,5,5,http://localhost:8080/cart,14,0,0
+1781011352787,16,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17554,463,5,5,http://localhost:8080/cart,6,0,0
+1781011352787,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011352793,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17459,173,5,5,http://localhost:8080/cart,10,0,0
+1781011352837,16,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6947,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011353060,12,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011353177,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17475,173,5,5,http://localhost:8080/cart,10,0,0
+1781011353251,10,GET Cart,200,OK,User purchase flow 1-2,text,true,,17463,173,5,5,http://localhost:8080/cart,10,0,0
+1781011353304,14,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011353317,15,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17514,463,5,5,http://localhost:8080/cart,5,0,0
+1781011353317,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011353322,10,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17419,173,5,5,http://localhost:8080/cart,10,0,0
+1781011353334,12,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011353636,15,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6935,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011353642,13,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6993,522,5,5,http://localhost:8080/cart/checkout,13,0,0
+1781011353825,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011353834,9,GET Cart,200,OK,User purchase flow 1-3,text,true,,17421,173,5,5,http://localhost:8080/cart,8,0,0
+1781011353838,12,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011354074,19,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8300,187,5,5,http://localhost:8080/product/OLJCESPC7Z,19,0,0
+1781011354246,10,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8260,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011354277,13,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011354337,17,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17548,463,5,5,http://localhost:8080/cart,7,0,0
+1781011354337,7,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011354344,10,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17453,173,5,5,http://localhost:8080/cart,10,0,0
+1781011354370,14,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17516,463,5,5,http://localhost:8080/cart,5,0,0
+1781011354370,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011354375,9,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17421,173,5,5,http://localhost:8080/cart,9,0,0
+1781011354525,15,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17550,463,5,5,http://localhost:8080/cart,6,0,0
+1781011354525,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011354531,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17455,173,5,5,http://localhost:8080/cart,9,0,0
+1781011354665,15,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6991,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011354694,10,GET Cart,200,OK,User purchase flow 1-4,text,true,,17415,173,5,5,http://localhost:8080/cart,10,0,0
+1781011354856,13,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011354973,15,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8286,187,5,5,http://localhost:8080/product/OLJCESPC7Z,15,0,0
+1781011355053,9,GET Cart,200,OK,User purchase flow 1-2,text,true,,17459,173,5,5,http://localhost:8080/cart,9,0,0
+1781011355265,11,GET Cart,200,OK,User purchase flow 1-1,text,true,,17419,173,5,5,http://localhost:8080/cart,11,0,0
+1781011355414,12,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8260,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011355351,90,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6955,522,5,5,http://localhost:8080/cart/checkout,90,0,0
+1781011355418,23,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6983,522,5,5,http://localhost:8080/cart/checkout,23,0,0
+1781011355565,16,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17508,463,5,5,http://localhost:8080/cart,6,0,0
+1781011355565,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011355571,10,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17413,173,5,5,http://localhost:8080/cart,10,0,0
+1781011355567,16,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6957,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011355769,13,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17508,463,5,5,http://localhost:8080/cart,5,0,0
+1781011355769,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011355775,7,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17413,173,5,5,http://localhost:8080/cart,7,0,0
+1781011355851,26,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,26,0,0
+1781011356024,13,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011356153,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17451,173,5,5,http://localhost:8080/cart,9,0,0
+1781011356252,11,GET Cart,200,OK,User purchase flow 1-5,text,true,,17453,173,5,5,http://localhost:8080/cart,11,0,0
+1781011356375,14,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011356776,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8254,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011356885,10,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8280,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011356923,15,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6971,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011356989,14,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6957,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011357018,10,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8264,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011357107,11,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,11,0,0
+1781011357406,14,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17550,463,5,5,http://localhost:8080/cart,5,0,0
+1781011357406,5,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011357411,9,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17455,173,5,5,http://localhost:8080/cart,9,0,0
+1781011357427,14,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17566,463,5,5,http://localhost:8080/cart,5,0,0
+1781011357427,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011357432,9,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17471,173,5,5,http://localhost:8080/cart,8,0,0
+1781011357445,34,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,34,0,0
+1781011357631,15,GET Cart,200,OK,User purchase flow 1-2,text,true,,17455,173,5,5,http://localhost:8080/cart,14,0,0
+1781011357676,14,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8302,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011357724,15,GET Cart,200,OK,User purchase flow 1-1,text,true,,17433,173,5,5,http://localhost:8080/cart,15,0,0
+1781011357717,22,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17546,463,5,5,http://localhost:8080/cart,6,0,0
+1781011357717,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011357723,16,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17451,173,5,5,http://localhost:8080/cart,16,0,0
+1781011357976,178,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8268,187,5,5,http://localhost:8080/product/OLJCESPC7Z,178,0,0
+1781011358072,87,GET Cart,200,OK,User purchase flow 1-4,text,true,,17415,173,5,5,http://localhost:8080/cart,87,0,0
+1781011358316,18,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6989,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011358450,17,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17512,463,5,5,http://localhost:8080/cart,5,0,0
+1781011358450,5,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011358456,11,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17417,173,5,5,http://localhost:8080/cart,10,0,0
+1781011358508,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17451,173,5,5,http://localhost:8080/cart,10,0,0
+1781011358532,15,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17528,463,5,5,http://localhost:8080/cart,6,0,0
+1781011358532,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011358538,9,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17433,173,5,5,http://localhost:8080/cart,9,0,0
+1781011358631,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011358631,14,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6949,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011358990,10,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8306,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011359002,16,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6939,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011359065,12,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011359097,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17447,173,5,5,http://localhost:8080/cart,10,0,0
+1781011359148,12,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8272,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011359230,15,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6961,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011359291,18,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,18,0,0
+1781011359455,23,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6983,522,5,5,http://localhost:8080/cart/checkout,23,0,0
+1781011359609,20,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,20,0,0
+1781011359678,19,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,19,0,0
+1781011359821,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8282,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011360026,17,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17510,463,5,5,http://localhost:8080/cart,5,0,0
+1781011360026,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011360032,11,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17415,173,5,5,http://localhost:8080/cart,11,0,0
+1781011360214,12,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8280,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011360345,11,GET Cart,200,OK,User purchase flow 1-2,text,true,,17449,173,5,5,http://localhost:8080/cart,10,0,0
+1781011360365,17,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17536,463,5,5,http://localhost:8080/cart,6,0,0
+1781011360365,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011360371,11,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17441,173,5,5,http://localhost:8080/cart,11,0,0
+1781011360509,12,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8284,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011360648,14,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17508,463,5,5,http://localhost:8080/cart,5,0,0
+1781011360648,5,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011360653,9,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17413,173,5,5,http://localhost:8080/cart,9,0,0
+1781011360668,16,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17542,463,5,5,http://localhost:8080/cart,6,0,0
+1781011360668,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011360674,10,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17447,173,5,5,http://localhost:8080/cart,10,0,0
+1781011360732,16,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6967,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011360840,12,GET Cart,200,OK,User purchase flow 1-4,text,true,,17431,173,5,5,http://localhost:8080/cart,12,0,0
+1781011361037,15,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17526,463,5,5,http://localhost:8080/cart,6,0,0
+1781011361037,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011361043,9,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17431,173,5,5,http://localhost:8080/cart,9,0,0
+1781011361169,16,GET Cart,200,OK,User purchase flow 1-1,text,true,,17419,173,5,5,http://localhost:8080/cart,16,0,0
+1781011361097,111,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,111,0,0
+1781011361230,9,GET Cart,200,OK,User purchase flow 1-5,text,true,,17471,173,5,5,http://localhost:8080/cart,9,0,0
+1781011361370,18,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6963,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011361506,20,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8272,187,5,5,http://localhost:8080/product/OLJCESPC7Z,20,0,0
+1781011361555,24,GET Cart,200,OK,User purchase flow 1-3,text,true,,17475,173,5,5,http://localhost:8080/cart,24,0,0
+1781011361748,21,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17548,463,5,5,http://localhost:8080/cart,7,0,0
+1781011361748,7,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011361755,14,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17453,173,5,5,http://localhost:8080/cart,14,0,0
+1781011361828,20,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,20,0,0
+1781011361974,26,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6997,522,5,5,http://localhost:8080/cart/checkout,26,0,0
+1781011362098,19,POST Checkout,200,OK,User purchase flow 1-5,text,true,,7003,522,5,5,http://localhost:8080/cart/checkout,19,0,0
+1781011362117,23,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6979,522,5,5,http://localhost:8080/cart/checkout,23,0,0
+1781011362128,19,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,19,0,0
+1781011362154,15,GET Cart,200,OK,User purchase flow 1-2,text,true,,17459,173,5,5,http://localhost:8080/cart,15,0,0
+1781011362197,26,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,26,0,0
+1781011362366,14,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8256,187,5,5,http://localhost:8080/product/OLJCESPC7Z,14,0,0
+1781011362433,16,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8248,187,5,5,http://localhost:8080/product/OLJCESPC7Z,16,0,0
+1781011362648,15,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6955,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011362865,43,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,43,0,0
+1781011362902,17,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17516,463,5,5,http://localhost:8080/cart,6,0,0
+1781011362902,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011362908,11,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17421,173,5,5,http://localhost:8080/cart,11,0,0
+1781011362936,12,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8282,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011363060,14,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17554,463,5,5,http://localhost:8080/cart,6,0,0
+1781011363060,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011363066,8,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17459,173,5,5,http://localhost:8080/cart,8,0,0
+1781011363280,19,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,19,0,0
+1781011363291,11,GET Cart,200,OK,User purchase flow 1-4,text,true,,17445,173,5,5,http://localhost:8080/cart,10,0,0
+1781011363360,17,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6961,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011363413,15,GET Cart,200,OK,User purchase flow 1-5,text,true,,17431,173,5,5,http://localhost:8080/cart,15,0,0
+1781011363752,13,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011363958,16,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17552,463,5,5,http://localhost:8080/cart,5,0,0
+1781011363958,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011363963,11,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17457,173,5,5,http://localhost:8080/cart,10,0,0
+1781011364081,16,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6987,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011364120,14,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011364121,15,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17560,463,5,5,http://localhost:8080/cart,5,0,0
+1781011364121,5,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011364126,10,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17465,173,5,5,http://localhost:8080/cart,10,0,0
+1781011364139,13,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011364243,15,GET Cart,200,OK,User purchase flow 1-3,text,true,,17413,173,5,5,http://localhost:8080/cart,14,0,0
+1781011364569,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8276,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011364580,13,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6951,522,5,5,http://localhost:8080/cart/checkout,13,0,0
+1781011364647,13,GET Cart,200,OK,User purchase flow 1-1,text,true,,17449,173,5,5,http://localhost:8080/cart,12,0,0
+1781011364916,15,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,15,0,0
+1781011365109,17,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17514,463,5,5,http://localhost:8080/cart,6,0,0
+1781011365109,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011365115,11,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17419,173,5,5,http://localhost:8080/cart,11,0,0
+1781011365139,10,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011365195,17,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6975,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011365232,12,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011365244,14,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011365271,17,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17514,463,5,5,http://localhost:8080/cart,6,0,0
+1781011365271,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011365278,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17419,173,5,5,http://localhost:8080/cart,10,0,0
+1781011365541,11,GET Cart,200,OK,User purchase flow 1-2,text,true,,17463,173,5,5,http://localhost:8080/cart,11,0,0
+1781011365613,12,GET Cart,200,OK,User purchase flow 1-4,text,true,,17431,173,5,5,http://localhost:8080/cart,12,0,0
+1781011365647,13,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8246,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011365765,16,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8296,187,5,5,http://localhost:8080/product/OLJCESPC7Z,16,0,0
+1781011365834,23,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17520,463,5,5,http://localhost:8080/cart,8,0,0
+1781011365834,8,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,8,0,0
+1781011365842,15,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17425,173,5,5,http://localhost:8080/cart,15,0,0
+1781011365886,17,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6949,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011365927,18,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17554,463,5,5,http://localhost:8080/cart,6,0,0
+1781011365927,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011365934,11,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17459,173,5,5,http://localhost:8080/cart,11,0,0
+1781011365973,16,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6961,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011366010,14,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011366012,16,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17544,463,5,5,http://localhost:8080/cart,6,0,0
+1781011366012,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011366018,10,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17449,173,5,5,http://localhost:8080/cart,10,0,0
+1781011366103,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17399,173,5,5,http://localhost:8080/cart,10,0,0
+1781011366186,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17457,173,5,5,http://localhost:8080/cart,10,0,0
+1781011366353,15,GET Cart,200,OK,User purchase flow 1-3,text,true,,17431,173,5,5,http://localhost:8080/cart,15,0,0
+1781011366489,11,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8248,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011366704,26,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,26,0,0
+1781011366892,15,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6977,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011366930,15,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17530,463,5,5,http://localhost:8080/cart,5,0,0
+1781011366930,5,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011366935,10,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17435,173,5,5,http://localhost:8080/cart,10,0,0
+1781011366963,17,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6957,522,5,5,http://localhost:8080/cart/checkout,17,0,0
+1781011367226,23,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6931,522,5,5,http://localhost:8080/cart/checkout,23,0,0
+1781011367302,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011367399,38,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,38,0,0
+1781011367547,12,GET Cart,200,OK,User purchase flow 1-4,text,true,,17421,173,5,5,http://localhost:8080/cart,11,0,0
+1781011367599,13,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8294,187,5,5,http://localhost:8080/product/OLJCESPC7Z,13,0,0
+1781011367660,17,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,17,0,0
+1781011367892,16,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8272,187,5,5,http://localhost:8080/product/OLJCESPC7Z,16,0,0
+1781011367898,17,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8290,187,5,5,http://localhost:8080/product/OLJCESPC7Z,17,0,0
+1781011368199,14,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6949,522,5,5,http://localhost:8080/cart/checkout,14,0,0
+1781011368362,16,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17528,463,5,5,http://localhost:8080/cart,6,0,0
+1781011368362,6,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011368368,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17433,173,5,5,http://localhost:8080/cart,10,0,0
+1781011368388,16,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17526,463,5,5,http://localhost:8080/cart,5,0,0
+1781011368388,5,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011368394,10,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17431,173,5,5,http://localhost:8080/cart,10,0,0
+1781011368397,9,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8254,187,5,5,http://localhost:8080/product/OLJCESPC7Z,9,0,0
+1781011368460,14,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17510,463,5,5,http://localhost:8080/cart,6,0,0
+1781011368460,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011368466,8,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17415,173,5,5,http://localhost:8080/cart,8,0,0
+1781011368473,13,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011368623,12,GET Cart,200,OK,User purchase flow 1-5,text,true,,17467,173,5,5,http://localhost:8080/cart,12,0,0
+1781011368798,15,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6943,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011368807,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17431,173,5,5,http://localhost:8080/cart,10,0,0
+1781011368886,12,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8280,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011368966,21,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17540,463,5,5,http://localhost:8080/cart,7,0,0
+1781011368966,7,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,7,0,0
+1781011368973,14,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17445,173,5,5,http://localhost:8080/cart,13,0,0
+1781011369041,18,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,18,0,0
+1781011369047,13,GET Cart,200,OK,User purchase flow 1-2,text,true,,17455,173,5,5,http://localhost:8080/cart,12,0,0
+1781011369337,20,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6971,522,5,5,http://localhost:8080/cart/checkout,20,0,0
+1781011369370,18,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6973,522,5,5,http://localhost:8080/cart/checkout,18,0,0
+1781011369463,11,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8262,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011369597,12,GET Cart,200,OK,User purchase flow 1-1,text,true,,17419,173,5,5,http://localhost:8080/cart,12,0,0
+1781011369695,14,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17510,463,5,5,http://localhost:8080/cart,5,0,0
+1781011369695,5,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011369700,9,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17415,173,5,5,http://localhost:8080/cart,9,0,0
+1781011369791,16,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6937,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011369796,15,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17538,463,5,5,http://localhost:8080/cart,6,0,0
+1781011369796,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011369802,9,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17443,173,5,5,http://localhost:8080/cart,9,0,0
+1781011370059,13,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011370162,18,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,18,0,0
+1781011370198,10,GET Cart,200,OK,User purchase flow 1-5,text,true,,17409,173,5,5,http://localhost:8080/cart,10,0,0
+1781011370208,10,GET Cart,200,OK,User purchase flow 1-4,text,true,,17425,173,5,5,http://localhost:8080/cart,9,0,0
+1781011370357,14,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,14,0,0
+1781011370686,26,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6983,522,5,5,http://localhost:8080/cart/checkout,26,0,0
+1781011370782,10,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8308,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011370672,125,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6957,522,5,5,http://localhost:8080/cart/checkout,125,0,0
+1781011371002,9,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8260,187,5,5,http://localhost:8080/product/OLJCESPC7Z,9,0,0
+1781011371064,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8292,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011371139,13,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011371251,12,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011371301,14,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17520,463,5,5,http://localhost:8080/cart,6,0,0
+1781011371301,6,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011371307,8,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17425,173,5,5,http://localhost:8080/cart,8,0,0
+1781011371378,16,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17550,463,5,5,http://localhost:8080/cart,6,0,0
+1781011371378,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011371384,10,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17455,173,5,5,http://localhost:8080/cart,10,0,0
+1781011371384,10,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8240,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011371387,14,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17532,463,5,5,http://localhost:8080/cart,5,0,0
+1781011371387,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011371392,9,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17437,173,5,5,http://localhost:8080/cart,9,0,0
+1781011371526,11,GET Cart,200,OK,User purchase flow 1-3,text,true,,17441,173,5,5,http://localhost:8080/cart,11,0,0
+1781011371676,11,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8266,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011371691,15,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17514,463,5,5,http://localhost:8080/cart,5,0,0
+1781011371691,5,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011371696,10,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17419,173,5,5,http://localhost:8080/cart,10,0,0
+1781011371724,10,GET Cart,200,OK,User purchase flow 1-2,text,true,,17417,173,5,5,http://localhost:8080/cart,10,0,0
+1781011371783,53,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6963,522,5,5,http://localhost:8080/cart/checkout,53,0,0
+1781011371946,15,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6931,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011372072,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17417,173,5,5,http://localhost:8080/cart,10,0,0
+1781011372130,16,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17542,463,5,5,http://localhost:8080/cart,6,0,0
+1781011372130,6,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011372136,10,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17447,173,5,5,http://localhost:8080/cart,9,0,0
+1781011372248,11,GET Cart,200,OK,User purchase flow 1-5,text,true,,17447,173,5,5,http://localhost:8080/cart,11,0,0
+1781011372294,32,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,32,0,0
+1781011372323,13,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011372447,9,GET Cart,200,OK,User purchase flow 1-4,text,true,,17459,173,5,5,http://localhost:8080/cart,9,0,0
+1781011372663,14,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6941,522,5,5,http://localhost:8080/cart/checkout,13,0,0
+1781011372692,15,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6933,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011372859,46,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8238,187,5,5,http://localhost:8080/product/OLJCESPC7Z,46,0,0
+1781011372962,11,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8314,187,5,5,http://localhost:8080/product/OLJCESPC7Z,11,0,0
+1781011372969,13,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011373079,15,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17518,463,5,5,http://localhost:8080/cart,5,0,0
+1781011373079,5,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011373084,10,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17423,173,5,5,http://localhost:8080/cart,9,0,0
+1781011373251,16,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6953,522,5,5,http://localhost:8080/cart/checkout,16,0,0
+1781011373660,20,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17542,463,5,5,http://localhost:8080/cart,11,0,0
+1781011373660,11,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,11,0,0
+1781011373671,9,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17447,173,5,5,http://localhost:8080/cart,9,0,0
+1781011373678,10,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8250,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011373683,11,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,11,0,0
+1781011373899,9,GET Cart,200,OK,User purchase flow 1-2,text,true,,17453,173,5,5,http://localhost:8080/cart,9,0,0
+1781011373942,13,GET Home,200,OK,User purchase flow 1-4,text,true,,10752,107,5,5,http://localhost:8080/,13,0,0
+1781011373948,10,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8256,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011374115,9,GET Cart,200,OK,User purchase flow 1-3,text,true,,17421,173,5,5,http://localhost:8080/cart,9,0,0
+1781011374110,14,POST Add To Cart,200,OK,User purchase flow 1-5,text,true,,17536,463,5,5,http://localhost:8080/cart,5,0,0
+1781011374110,5,POST Add To Cart-0,302,Found,User purchase flow 1-5,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011374115,9,POST Add To Cart-1,200,OK,User purchase flow 1-5,text,true,,17441,173,5,5,http://localhost:8080/cart,9,0,0
+1781011374309,12,GET Product Sunglasses,200,OK,User purchase flow 1-4,text,true,,8254,187,5,5,http://localhost:8080/product/OLJCESPC7Z,12,0,0
+1781011374316,16,POST Add To Cart,200,OK,User purchase flow 1-1,text,true,,17528,463,5,5,http://localhost:8080/cart,6,0,0
+1781011374316,6,POST Add To Cart-0,302,Found,User purchase flow 1-1,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011374322,10,POST Add To Cart-1,200,OK,User purchase flow 1-1,text,true,,17433,173,5,5,http://localhost:8080/cart,10,0,0
+1781011374355,30,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6967,522,5,5,http://localhost:8080/cart/checkout,30,0,0
+1781011374376,37,POST Checkout,200,OK,User purchase flow 1-2,text,true,,6989,522,5,5,http://localhost:8080/cart/checkout,37,0,0
+1781011374553,10,GET Cart,200,OK,User purchase flow 1-1,text,true,,17429,173,5,5,http://localhost:8080/cart,10,0,0
+1781011374730,12,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,5,5,http://localhost:8080/,11,0,0
+1781011374844,10,GET Product Sunglasses,200,OK,User purchase flow 1-3,text,true,,8274,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011374853,9,GET Cart,200,OK,User purchase flow 1-5,text,true,,17431,173,5,5,http://localhost:8080/cart,9,0,0
+1781011375106,14,POST Add To Cart,200,OK,User purchase flow 1-4,text,true,,17518,463,5,5,http://localhost:8080/cart,6,0,0
+1781011375106,6,POST Add To Cart-0,302,Found,User purchase flow 1-4,,true,,95,290,5,5,http://localhost:8080/cart,6,0,0
+1781011375112,8,POST Add To Cart-1,200,OK,User purchase flow 1-4,text,true,,17423,173,5,5,http://localhost:8080/cart,8,0,0
+1781011375125,15,POST Checkout,200,OK,User purchase flow 1-1,text,true,,6945,522,5,5,http://localhost:8080/cart/checkout,15,0,0
+1781011375210,12,GET Home,200,OK,User purchase flow 1-2,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011375256,14,POST Checkout,200,OK,User purchase flow 1-5,text,true,,6999,522,5,5,http://localhost:8080/cart/checkout,13,0,0
+1781011375498,14,POST Add To Cart,200,OK,User purchase flow 1-3,text,true,,17510,463,5,5,http://localhost:8080/cart,5,0,0
+1781011375498,5,POST Add To Cart-0,302,Found,User purchase flow 1-3,,true,,95,290,5,5,http://localhost:8080/cart,5,0,0
+1781011375503,9,POST Add To Cart-1,200,OK,User purchase flow 1-3,text,true,,17415,173,5,5,http://localhost:8080/cart,9,0,0
+1781011375559,55,GET Cart,200,OK,User purchase flow 1-4,text,true,,17425,173,5,5,http://localhost:8080/cart,54,0,0
+1781011375627,12,GET Home,200,OK,User purchase flow 1-5,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011375638,12,GET Home,200,OK,User purchase flow 1-1,text,true,,10752,107,5,5,http://localhost:8080/,12,0,0
+1781011375667,10,GET Product Sunglasses,200,OK,User purchase flow 1-2,text,true,,8288,187,5,5,http://localhost:8080/product/OLJCESPC7Z,10,0,0
+1781011375754,10,GET Cart,200,OK,User purchase flow 1-3,text,true,,17409,173,5,5,http://localhost:8080/cart,10,0,0
+1781011375777,27,POST Checkout,200,OK,User purchase flow 1-3,text,true,,6945,522,5,5,http://localhost:8080/cart/checkout,27,0,0
+1781011376003,9,GET Product Sunglasses,200,OK,User purchase flow 1-1,text,true,,8294,187,5,5,http://localhost:8080/product/OLJCESPC7Z,9,0,0
+1781011376075,335,POST Checkout,200,OK,User purchase flow 1-4,text,true,,6989,522,4,4,http://localhost:8080/cart/checkout,334,0,0
+1781011376319,200,GET Home,200,OK,User purchase flow 1-3,text,true,,10752,107,3,3,http://localhost:8080/,200,0,0
+1781011376445,75,GET Product Sunglasses,200,OK,User purchase flow 1-5,text,true,,8282,187,2,2,http://localhost:8080/product/OLJCESPC7Z,75,0,0
+1781011376136,384,POST Add To Cart,200,OK,User purchase flow 1-2,text,true,,17528,463,2,2,http://localhost:8080/cart,271,0,0
+1781011376136,271,POST Add To Cart-0,302,Found,User purchase flow 1-2,,true,,95,290,2,2,http://localhost:8080/cart,271,0,0
+1781011376407,113,POST Add To Cart-1,200,OK,User purchase flow 1-2,text,true,,17433,173,2,2,http://localhost:8080/cart,113,0,0

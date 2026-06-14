@@ -1,0 +1,29 @@
+2026-06-09 21:20:19,086 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-06-09 21:20:19,118 INFO o.a.j.JMeter: Loading user properties from: D:\apache-jmeter-5.6.3\bin\user.properties
+2026-06-09 21:20:19,119 INFO o.a.j.JMeter: Loading system properties from: D:\apache-jmeter-5.6.3\bin\system.properties
+2026-06-09 21:20:19,132 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-06-09 21:20:19,132 INFO o.a.j.JMeter: Version 5.6.3
+2026-06-09 21:20:19,132 INFO o.a.j.JMeter: java.version=21.0.2
+2026-06-09 21:20:19,132 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-06-09 21:20:19,132 INFO o.a.j.JMeter: os.name=Windows 11
+2026-06-09 21:20:19,132 INFO o.a.j.JMeter: os.arch=amd64
+2026-06-09 21:20:19,133 INFO o.a.j.JMeter: os.version=10.0
+2026-06-09 21:20:19,134 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-06-09 21:20:19,134 INFO o.a.j.JMeter: java.awt.headless=true
+2026-06-09 21:20:19,134 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-06-09 21:20:19,134 INFO o.a.j.JMeter: Available Processors =20
+2026-06-09 21:20:19,146 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-06-09 21:20:19,147 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-06-09 21:20:19,147 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-5.6.3
+2026-06-09 21:20:19,147 INFO o.a.j.JMeter: user.dir  =C:\Users\86199\Desktop\软测大作业\tests\stage3
+2026-06-09 21:20:19,148 INFO o.a.j.JMeter: PWD       =C:\Users\86199\Desktop\软测大作业\tests\stage3
+2026-06-09 21:20:19,151 INFO o.a.j.JMeter: IP: 192.168.126.13 Name: dqy FullName: dqy
+2026-06-09 21:20:19,185 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Cannot write to 'C:\Users\86199\Desktop\软测大作业\tests\stage3\tests\stage3\report-baseline' as folder does not exist and parent folder is not writable
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:672) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:620) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.JMeter.extractAndSetReportOutputFolder(JMeter.java:542) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:492) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]

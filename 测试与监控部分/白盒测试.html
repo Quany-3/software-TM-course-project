@@ -1,0 +1,211 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>白盒测试 · Selenium 与 JMeter</title>
+  <link rel="stylesheet" href="report-style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <div class="brand"><span class="brand-mark">W</span><span>白盒测试报告</span></div>
+      <nav class="nav">
+        <a href="index.html">报告入口</a>
+        <a href="监控系统.html">监控系统</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="shell hero">
+    <span class="eyebrow">Stage 3 · Selenium IDE & JMeter</span>
+    <h1>自动化功能测试与性能测试</h1>
+    <p class="subtitle">围绕 Online Boutique 微服务系统，使用 Selenium IDE 验证前端核心业务流程，并通过 JMeter 构造多负载场景，评估响应时间、吞吐量和错误率。</p>
+    <div class="meta-grid">
+      <div class="meta-card"><strong>功能流程</strong><span>浏览商品、加入购物车、提交订单。</span></div>
+      <div class="meta-card"><strong>性能场景</strong><span>基线、普通负载、中等并发、突增流量。</span></div>
+      <div class="meta-card"><strong>监控联动</strong><span>结合 Grafana 观察压测期间资源波动。</span></div>
+    </div>
+  </section>
+
+  <main class="shell layout">
+    <aside class="toc">
+      <h2>目录</h2>
+      <a href="#app">应用页面</a>
+      <a href="#selenium">Selenium 功能测试</a>
+      <a href="#jmeter">JMeter 测试配置</a>
+      <a href="#fix">断言问题修正</a>
+      <a href="#cli">命令行测试</a>
+      <a href="#scenarios">多负载场景</a>
+    </aside>
+
+    <article class="content">
+      <section class="section" id="app">
+        <div class="section-head"><h2>应用页面</h2><span class="tag">Frontend</span></div>
+        <div class="section-body">
+          <p class="lead">微服务应用前端已正常部署，可通过浏览器访问并进行商品浏览、购物车与下单流程测试。</p>
+          <figure class="image-frame">
+            <img src="images/image-20260609203922270.png" alt="应用页面截图">
+            <figcaption class="caption">Online Boutique 应用首页。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="selenium">
+        <div class="section-head"><h2>Selenium 功能测试</h2><span class="tag">Functional</span></div>
+        <div class="section-body">
+          <ul>
+            <li>使用 Selenium 编写自动化脚本，模拟用户在前端界面上的操作，如浏览商品、下单等。</li>
+            <li>配置 Selenium 脚本进行页面加载测试、按钮点击、表单提交等交互，确保前端功能正常。</li>
+            <li>在不同的浏览器中运行测试脚本，验证系统在不同环境下的兼容性。</li>
+            <li>记录页面加载时间、交互响应时间等指标，模拟实际用户操作场景。</li>
+          </ul>
+          <figure class="image-frame">
+            <img src="images/image-20260609203144330.png" alt="Selenium IDE 测试截图">
+            <figcaption class="caption">Selenium IDE 录制并回放用户操作流程。</figcaption>
+          </figure>
+          <p><strong>导出脚本：</strong></p>
+          <figure class="image-frame">
+            <img src="images/image-20260609203348826.png" alt="Selenium 导出脚本截图">
+            <figcaption class="caption">Selenium 测试脚本导出结果。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="jmeter">
+        <div class="section-head"><h2>JMeter 白盒测试</h2><span class="tag">Performance</span></div>
+        <div class="section-body">
+          <p class="lead">编写相关配置和脚本，模拟 HTTP 请求访问首页、商品页、购物车和结算流程。</p>
+          <figure class="image-frame">
+            <img src="images/image-20260609204409068.png" alt="JMeter 配置截图">
+            <figcaption class="caption">JMeter 测试计划与请求配置。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="fix">
+        <div class="section-head"><h2>断言问题修正</h2><span class="tag">Debug</span></div>
+        <div class="section-body">
+          <p class="note">初次运行时 GET Cart 请求出现 100% 错误率。经检查 Response Code 为 200，错误来源为 JMeter Response Assertion 文本匹配失败，而非系统接口异常。调整断言条件后重新测试。</p>
+          <figure class="image-frame">
+            <img src="images/image-20260609205208682.png" alt="JMeter 断言问题截图">
+            <figcaption class="caption">GET Cart 断言失败定位。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="cli">
+        <div class="section-head"><h2>命令行测试与 HTML 报告</h2><span class="tag">CLI</span></div>
+        <div class="section-body">
+          <p>使用命令行第一次测试，测试配置如下：</p>
+          <pre><code>host = localhost
+port = 8080
+threads = 10
+ramp_up = 10
+duration = 120</code></pre>
+          <figure class="image-frame">
+            <img src="images/image-20260609205501667.png" alt="JMeter CLI 测试截图">
+            <figcaption class="caption">JMeter 命令行执行测试。</figcaption>
+          </figure>
+          <p><strong>查看 HTML 报告：</strong></p>
+          <figure class="image-frame">
+            <img src="images/image-20260609205542240.png" alt="JMeter HTML 报告概览">
+            <figcaption class="caption">JMeter HTML 报告总览。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260609205558354.png" alt="JMeter HTML 报告详情">
+            <figcaption class="caption">JMeter 报告中的性能统计。</figcaption>
+          </figure>
+          <p><strong>期间 Grafana Dashboard 的波动图：</strong></p>
+          <figure class="image-frame">
+            <img src="images/image-20260609210109195.png" alt="Grafana 波动图">
+            <figcaption class="caption">压测期间 Grafana 监控曲线变化。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="scenarios">
+        <div class="section-head"><h2>不同负载场景测试</h2><span class="tag">Load</span></div>
+        <div class="section-body">
+          <p class="lead">进行初步测试后，再次多轮测试来模拟不同的场景。</p>
+          <div class="scenario-grid">
+            <div class="scenario">
+              <h3>场景 1：基线测试</h3>
+              <p>用于确认系统正常，无明显错误。</p>
+              <pre><code>threads = 5
+ramp_up = 10
+duration = 120</code></pre>
+            </div>
+            <div class="scenario">
+              <h3>场景 2：普通负载</h3>
+              <p>模拟少量真实用户持续访问。</p>
+              <pre><code>threads = 20
+ramp_up = 20
+duration = 180</code></pre>
+            </div>
+            <div class="scenario">
+              <h3>场景 3：中等并发</h3>
+              <p>观察系统在较明显并发下的响应时间变化。</p>
+              <pre><code>threads = 50
+ramp_up = 30
+duration = 300</code></pre>
+            </div>
+            <div class="scenario">
+              <h3>场景 4：突增流量测试</h3>
+              <p>模拟用户突然涌入。</p>
+              <pre><code>threads = 100
+ramp_up = 5
+duration = 180</code></pre>
+            </div>
+          </div>
+
+          <figure class="image-frame">
+            <img src="images/image-20260609212322860.png" alt="基线测试报告一">
+            <figcaption class="caption">基线测试结果截图一。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260609212340516.png" alt="基线测试报告二">
+            <figcaption class="caption">基线测试结果截图二。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260610091637285.png" alt="普通负载测试报告一">
+            <figcaption class="caption">普通负载测试结果截图一。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260610091710918.png" alt="普通负载测试报告二">
+            <figcaption class="caption">普通负载测试结果截图二。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260610092424481.png" alt="中等并发测试报告一">
+            <figcaption class="caption">中等并发测试结果截图一。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260610092447621.png" alt="中等并发测试报告二">
+            <figcaption class="caption">中等并发测试结果截图二。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260610092519300.png" alt="中等并发测试报告三">
+            <figcaption class="caption">中等并发测试结果截图三。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260610092935848.png" alt="突增流量测试报告一">
+            <figcaption class="caption">突增流量测试结果截图一。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260610093011089.png" alt="突增流量测试报告二">
+            <figcaption class="caption">突增流量测试结果截图二。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260610093026086.png" alt="突增流量测试报告三">
+            <figcaption class="caption">突增流量测试结果截图三。</figcaption>
+          </figure>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">白盒测试 HTML 报告 · Selenium IDE / JMeter / Grafana</footer>
+</body>
+</html>
+
+

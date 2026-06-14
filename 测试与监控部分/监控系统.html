@@ -1,0 +1,87 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>监控系统 · Chaos Mesh 与 Grafana</title>
+  <link rel="stylesheet" href="report-style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <div class="brand"><span class="brand-mark">M</span><span>监控系统报告</span></div>
+      <nav class="nav">
+        <a href="index.html">报告入口</a>
+        <a href="白盒测试.html">白盒测试</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="shell hero">
+    <span class="eyebrow">Chaos Mesh · Prometheus · Grafana</span>
+    <h1>故障注入与实时监控</h1>
+    <p class="subtitle">使用 Chaos Mesh 模拟微服务系统中的 Pod 故障，并结合 Prometheus 与 Grafana 观察故障发生前后的系统状态变化。</p>
+    <div class="meta-grid">
+      <div class="meta-card"><strong>故障类型</strong><span>PodKill 故障注入。</span></div>
+      <div class="meta-card"><strong>监控工具</strong><span>Prometheus 采集，Grafana 可视化。</span></div>
+      <div class="meta-card"><strong>实验目标</strong><span>观察不同 Pod 故障对系统的影响差异。</span></div>
+    </div>
+  </section>
+
+  <main class="shell layout">
+    <aside class="toc">
+      <h2>目录</h2>
+      <a href="#overview">实验说明</a>
+      <a href="#normal">正常状态</a>
+      <a href="#podkill">PodKill 后状态</a>
+      <a href="#conclusion">观察结论</a>
+    </aside>
+
+    <article class="content">
+      <section class="section" id="overview">
+        <div class="section-head"><h2>实验说明</h2><span class="tag">Overview</span></div>
+        <div class="section-body">
+          <p class="lead">使用 ChaosMesh 进行故障注入，模拟系统中的故障情景，并结合 Prometheus 和 Grafana 进行实时监控与可视化展示，监控系统在故障发生时的表现。</p>
+        </div>
+      </section>
+
+      <section class="section" id="normal">
+        <div class="section-head"><h2>系统正常使用状态</h2><span class="tag">Baseline</span></div>
+        <div class="section-body">
+          <p>如下图所示，此时系统处于正常使用状态，各服务 Pod 正常运行，监控面板显示基础资源消耗和运行状态。</p>
+          <figure class="image-frame">
+            <img src="images/image-20260609160239034.png" alt="系统正常状态截图">
+            <figcaption class="caption">系统正常运行时的监控状态。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="podkill">
+        <div class="section-head"><h2>执行两次 PodKill 后</h2><span class="tag">Fault Injection</span></div>
+        <div class="section-body">
+          <p>通过 Chaos Mesh 执行两次 PodKill 后，系统部分服务被强制终止，随后由 Kubernetes 控制器进行重建。监控面板中可以观察到资源、状态和性能指标出现明显波动。</p>
+          <figure class="image-frame">
+            <img src="images/image-20260609160728979.png" alt="PodKill 后状态截图一">
+            <figcaption class="caption">PodKill 后监控状态变化一。</figcaption>
+          </figure>
+          <figure class="image-frame">
+            <img src="images/image-20260609160722713.png" alt="PodKill 后状态截图二">
+            <figcaption class="caption">PodKill 后监控状态变化二。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="conclusion">
+        <div class="section-head"><h2>观察结论</h2><span class="tag">Conclusion</span></div>
+        <div class="section-body">
+          <p class="success">可以发现，PodKill 后系统状态和性能指标出现明显变化。被 Kill 的 Pod 不同时，对于系统的影响程度也存在较大差异，说明不同微服务在业务链路中的关键程度并不相同。</p>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">监控系统 HTML 报告 · Chaos Mesh / Prometheus / Grafana</footer>
+</body>
+</html>
+
+
