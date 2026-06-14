@@ -51,7 +51,7 @@ def load_csv(filepath, columns=None, max_rows=None):
         # Use all numeric columns
         numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
         # Exclude non-feature columns
-        exclude_cols = {'label', 'window', 'timestamp_sec', 'phase'}
+        exclude_cols = {'label', 'window', 'timestamp_sec', 'phase', 'timestamp'}
         feature_names = [c for c in numeric_cols if c not in exclude_cols
                         and c.lower() not in exclude_cols]
         if not feature_names:

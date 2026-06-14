@@ -1,0 +1,172 @@
+{
+  "top_n": 10,
+  "selected_features": [
+    "mem_cartservice_7956c8c845_s8bw5",
+    "mem_shippingservice_5dcc4d7bd_24vkk",
+    "mem_loadgenerator_5c7cbd94ff_mwhrf",
+    "mem_currencyservice_8fdf6cf9d_4fqrt",
+    "cpu_frontend_759775d795_m5m79",
+    "mem_checkoutservice_dcf4c5c7b_n6tmr",
+    "cpu_emailservice_588bb96b8_2v4fw",
+    "mem_frontend_759775d795_m5m79",
+    "mem_productcatalogservice_c4cfd98fb_c8d5f",
+    "cpu_inventoryservice_59c54c8d8_msglb"
+  ],
+  "all_rankings": [
+    {
+      "feature": "mem_cartservice_7956c8c845_s8bw5",
+      "effect_size": 2.8969502153331,
+      "ks_stat": 0.8046875
+    },
+    {
+      "feature": "mem_shippingservice_5dcc4d7bd_24vkk",
+      "effect_size": 2.7973234757975436,
+      "ks_stat": 0.9208333333333333
+    },
+    {
+      "feature": "mem_loadgenerator_5c7cbd94ff_mwhrf",
+      "effect_size": 2.4078414324457005,
+      "ks_stat": 0.825
+    },
+    {
+      "feature": "mem_currencyservice_8fdf6cf9d_4fqrt",
+      "effect_size": 1.897913953058202,
+      "ks_stat": 0.6875
+    },
+    {
+      "feature": "cpu_frontend_759775d795_m5m79",
+      "effect_size": 1.57060476163938,
+      "ks_stat": 0.7056436026285272
+    },
+    {
+      "feature": "mem_checkoutservice_dcf4c5c7b_n6tmr",
+      "effect_size": 1.4514259994319043,
+      "ks_stat": 0.515625
+    },
+    {
+      "feature": "cpu_emailservice_588bb96b8_2v4fw",
+      "effect_size": 1.3456874833667927,
+      "ks_stat": 0.70625
+    },
+    {
+      "feature": "mem_frontend_759775d795_m5m79",
+      "effect_size": 1.1795947546539793,
+      "ks_stat": 0.825
+    },
+    {
+      "feature": "mem_productcatalogservice_c4cfd98fb_c8d5f",
+      "effect_size": 1.0957407056971256,
+      "ks_stat": 0.6416666666666667
+    },
+    {
+      "feature": "cpu_inventoryservice_59c54c8d8_msglb",
+      "effect_size": 0.9260351924602166,
+      "ks_stat": 0.7192708333333333
+    },
+    {
+      "feature": "mem_couponservice_74995cd98d_cpwc2",
+      "effect_size": 0.9139794245020672,
+      "ks_stat": 0.5859375
+    },
+    {
+      "feature": "cpu_productcatalogservice_c4cfd98fb_c8d5f",
+      "effect_size": 0.9067637905753303,
+      "ks_stat": 0.6041666666666666
+    },
+    {
+      "feature": "cpu_recommendationservice_b5b5bfc56_zzdjk",
+      "effect_size": 0.8193802084840504,
+      "ks_stat": 0.4609375
+    },
+    {
+      "feature": "mem_recommendationservice_b5b5bfc56_zzdjk",
+      "effect_size": 0.6661693663277303,
+      "ks_stat": 0.534375
+    },
+    {
+      "feature": "cpu_couponservice_74995cd98d_cpwc2",
+      "effect_size": 0.5789898093558913,
+      "ks_stat": 0.4140625
+    },
+    {
+      "feature": "cpu_paymentservice_66c65775b_zpr5q",
+      "effect_size": 0.5430978347346246,
+      "ks_stat": 0.3125
+    },
+    {
+      "feature": "cpu_checkoutservice_dcf4c5c7b_n6tmr",
+      "effect_size": 0.528207349479387,
+      "ks_stat": 0.3333333333333333
+    },
+    {
+      "feature": "mem_inventoryservice_59c54c8d8_msglb",
+      "effect_size": 0.5123488585251542,
+      "ks_stat": 0.1875
+    },
+    {
+      "feature": "mem_adservice_64dd5464b8_jlchp",
+      "effect_size": 0.4760852316496756,
+      "ks_stat": 0.4
+    },
+    {
+      "feature": "node_cpu_pct",
+      "effect_size": 0.43056831542034385,
+      "ks_stat": 0.390625
+    },
+    {
+      "feature": "cpu_loadgenerator_5c7cbd94ff_mwhrf",
+      "effect_size": 0.41452387266969515,
+      "ks_stat": 0.3125
+    },
+    {
+      "feature": "cpu_cartservice_7956c8c845_s8bw5",
+      "effect_size": 0.312741653853907,
+      "ks_stat": 0.359375
+    },
+    {
+      "feature": "cpu_shippingservice_5dcc4d7bd_24vkk",
+      "effect_size": 0.28036567537954066,
+      "ks_stat": 0.296875
+    },
+    {
+      "feature": "cpu_currencyservice_8fdf6cf9d_4fqrt",
+      "effect_size": 0.2705814143459987,
+      "ks_stat": 0.30052083333333335
+    },
+    {
+      "feature": "cpu_redis_cart_6899b65948_sdqbf",
+      "effect_size": 0.2241066634472319,
+      "ks_stat": 0.203125
+    },
+    {
+      "feature": "mem_paymentservice_66c65775b_zpr5q",
+      "effect_size": 0.19051558185590173,
+      "ks_stat": 0.221875
+    },
+    {
+      "feature": "mem_redis_cart_6899b65948_sdqbf",
+      "effect_size": 0.1755262644571662,
+      "ks_stat": 0.41770833333333335
+    },
+    {
+      "feature": "cpu_adservice_64dd5464b8_jlchp",
+      "effect_size": 0.1179167308852733,
+      "ks_stat": 0.22552083333333334
+    },
+    {
+      "feature": "mem_emailservice_588bb96b8_2v4fw",
+      "effect_size": 0.04202531091084414,
+      "ks_stat": 0.20416666666666666
+    },
+    {
+      "feature": "mem_frontend_759775d795_qzdkj",
+      "effect_size": 0.0,
+      "ks_stat": 0.0
+    },
+    {
+      "feature": "pod_count_running",
+      "effect_size": 0.0,
+      "ks_stat": 0.0
+    }
+  ]
+}
